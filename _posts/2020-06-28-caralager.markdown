@@ -22,10 +22,13 @@ recipe:
   fermentables: 
     - name: "Rahr - 2 Row"
       amount: "8 lbs 12 oz"
+      perc: 89.2%
     - name: "Crystal 80L"
       amount: "5 oz"
+      perc: 3.2%
     - name: "Munich 20L"
       amount: "5 oz"
+      perc: 3.2%
   mash: 
     - name: "Mash in"
       strike_temp: "155F"
@@ -38,18 +41,25 @@ recipe:
       type: "Boil"
       amount: "7 oz"
       time: "60 min"
+      perc: 4.5%
     - name: "Willamette"
       type: "Boil"
       amount: "0.43 oz"
       time: "60 min"
+      aa: 5.5%
+      ibu: 8.9
     - name: "Willamette"
       type: "Boil"
       amount: "0.43 oz"
       time: "20 min"
+      aa: 5.5%
+      ibu: 5.4
     - name: "Willamette"
       type: "Boil"
       amount: "0.86 oz"
       time: "10 min"
+      aa: 5.5%
+      ibu: 6.4
     - name: "Irish Moss"
       type: "Boil"
       amount: "1 tsp"

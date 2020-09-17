@@ -10,7 +10,7 @@ recipe:
   type: "All Grain"
   size: "5.25 gallon"
   style: "19C - American Brown Ale"
-  efficency: 72%
+  efficiency: 72%
   est_og: 1.053
   est_fg: 1.012
   est_abv: "5.3%"
