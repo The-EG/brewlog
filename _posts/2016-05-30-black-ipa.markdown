@@ -1,0 +1,82 @@
+---
+layout: post
+title: "Black IPA #1"
+date: 2016-05-30
+tags:
+  - ipa
+  - black ipa
+
+
+recipe:
+  type: "All Grain"
+  style: "Black IPA"
+  size: "2.75 gallon"
+  est_og: 1.066
+  est_fg: 1.016
+  est_abv: 6.8
+  color: 26
+  ibus: 70.6
+  boil_time: "60 min"
+  yeast: "US-05"
+  ferm_time: "10 days"
+  ferm_temp: 68F
+  fermentables:
+    - name: "Pale - US"
+      amount: "6 lbs"
+    - name: "Crystal 45L"
+      amount: "1 lb"
+    - name: "Roasted Barley"
+      amount: "4 oz"
+  mash:
+    - name: "Mash In"
+      strike_temp: "164F"
+      amount: "2.25 gal"
+      target_temp: "152F"
+      time: "60 min"
+  sparge: "Fly sparge"
+  hops:
+    - name: "Warrior"
+      type: "Boil"
+      amount: "0.6 oz"
+      time: "60 min"
+    - name: "Cascade"
+      type: "Boil"
+      amount: "0.5 oz"
+      time: "30 min"
+    - name: "Citra"
+      type: "Boil"
+      amount: "0.25 oz"
+      time: "15 min"
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "0.5 tsp"
+      time: "15 min"
+    - name: "Citra"
+      type: "Aroma"
+      amount: "0.25 oz"
+      time: "0 min"
+    - name: "Simcoe"
+      type: "Aroma"
+      amount: "0.25 oz"
+      time: "0 min"
+    - name: "Cascade"
+      type: "Aroma"
+      amount: "0.25 oz"
+      time: "0 min"
+    - name: "Citra"
+      type: "Dry Hop"
+      amount: "1.5 oz"
+      time: "7 days"
+  package_type: "Bottle"
+  package_date: 2016-06-18
+  carb_priming: "2.3 oz sugar"
+  og: 1.072
+  fg: 1.018
+  abv: 7.1%
+  notes: >-
+---
+![black ipa trophy](/assets/black ipa trophy.jpg)
+
+My first recipe of my own creation, and also my first beer that was shared with more than just close friends...and it won 3rd place in a people's choice contest!
+{% include other_brews.markdown %}
+{% include recipe.markdown %}

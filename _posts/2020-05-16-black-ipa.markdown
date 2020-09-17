@@ -1,0 +1,90 @@
+---
+layout: post
+title: "Black IPA #1"
+date: 2020-05-16
+tags:
+  - ipa
+  - black ipa
+
+
+recipe:
+  type: "All Grain"
+  style: "Black IPA"
+  size: "5.25 gallon"
+  est_og: 1.066
+  est_fg: 1.016
+  est_abv: 6.6
+  color: 29.2
+  ibus: 67
+  boil_time: "60 min"
+  yeast: "US-05"
+  ferm_time: "10 days"
+  ferm_temp: 68F
+  fermentables:
+    - name: "Rahr Pale"
+      amount: "11 lbs 8 oz"
+      perc: 81.8%
+    - name: "Crystal 40L"
+      amount: "2 lb"
+      perc: 14.2%
+    - name: "Black Barley"
+      amount: "9 oz"
+      perc: 4%
+  mash:
+    - name: "Mash In"
+      strike_temp: "163F"
+      amount: "5 gal"
+      target_temp: "152F"
+      time: "60 min"
+  sparge: "batch sparge, 1 step 3.75 gallons"
+  hops:
+    - name: "Warrior"
+      type: "Boil"
+      amount: "1.11 oz"
+      time: "60 min"
+      aa: 15%
+      ibu: 47.6.8
+    - name: "Cascade"
+      type: "Boil"
+      amount: "1 oz"
+      time: "30 min"
+      ibu: 12.3
+      aa: 5.5%
+    - name: "Citra"
+      type: "Boil"
+      amount: "0.43 oz"
+      time: "15 min"
+      ibu: 7.2
+      aa: 12%
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "1 tsp"
+      time: "15 min"
+    - name: "Citra"
+      type: "Aroma"
+      amount: "0.44 oz"
+      time: "0 min"
+    - name: "Simcoe"
+      type: "Aroma"
+      amount: "0.44 oz"
+      time: "0 min"
+    - name: "Cascade"
+      type: "Aroma"
+      amount: "0.44 oz"
+      time: "0 min"
+    - name: "Citra"
+      type: "Dry Hop"
+      amount: "3.5 oz"
+      time: "7 days"
+  package_type: "Keg"
+  package_date: 2020-05-16
+  carb_priming: 
+  og: 1.062
+  fg: 1.013
+  abv: 6.4%
+  notes: >-
+    Collected 5.5 gallons of wort. Pitched US-05 packet, not rehydrated @72F. Fermentation temp maintained between 67-68F. Dry hopped with 4oz citra, 0.5oz simcoe, 0.5oz cascade (left overs)
+---
+
+{% include other_brews.markdown %}
+{% include recipe.markdown %}

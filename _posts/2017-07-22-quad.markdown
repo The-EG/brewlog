@@ -1,0 +1,72 @@
+---
+layout: post
+title: "Quad #1"
+date: 2017-07-22
+tags:
+  - bjcp: 26D
+  - belgian dark strong ale
+
+recipe:
+  type: "All Grain"
+  efficiency: 72%
+  style: "Belgian Dark Strong Ale"
+  size: "2.75 gallon"
+  est_og: 1.094
+  est_fg: 1.015
+  est_abv: 10.5
+  color: 19.4
+  ibus: 25.8
+  boil_time: "60 min"
+  yeast: "Wy3787"
+  ferm_time: "10 days"
+  ferm_temp: 67F
+  fermentables:
+    - name: "Rahr 2 Row"
+      amount: "8 lbs 12 oz"
+      perc: 84.6%
+    - name: "Caramel 80L"
+      amount: "8.5 oz"
+      perc: 5.1%
+    - name: "Caramel 120L"
+      amount: "8.5 oz"
+      perc: 5.1%
+  mash:
+    - name: "Mash In"
+      strike_temp: "170F"
+      amount: "12.27 qts"
+      target_temp: "150F"
+      time: "60 min"
+    - name: "Mash Out"
+      strike_temp: "208F"
+      amount: "6.87 qts"
+      target_temp: "168F"
+      time: "10 min"
+  sparge: fly sparge
+  hops:
+    - name: "Brown Sugar, Light"
+      type: "Boil"
+      amount: "8.5 oz"
+      time: "60 min"
+      perc: 5.1%
+    - name: "Warrior"
+      aa: 15%
+      ibu: 25.8
+      type: "Boil"
+      amount: "0.35 oz"
+      time: "60 min"
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "0.5 tsp"
+      time: "10 min"
+  package_type: 
+  package_date: 2017-08-12
+  carb_priming: 
+  og: 1.080
+  fg: 1.018
+  abv: 8%
+  notes: >-
+    1 liter starter. Very good!
+---
+After visiting [Wild Heaven](https://wildheavenbeer.com) and trying Eschaton I knew I had to try making a Belgian Quad. This one turned out to be quite good!
+{% include other_brews.markdown %}
+{% include recipe.markdown %}

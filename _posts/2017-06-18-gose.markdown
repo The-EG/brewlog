@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Gose #1"
+date: 2017-06-18
+tags:
+  - sour
+  - gose
+  - lacto
+
+recipe:
+  type: "All Grain"
+  style: "Gose #1"
+  size: "2.75 gallon"
+  est_og: 1.056
+  est_fg: 1.014
+  est_abv: 5.7
+  color: 3.6
+  ibus: 7
+  boil_time: "60 min"
+  yeast: "WY3068"
+  ferm_time: "10 days"
+  ferm_temp: 68F
+  fermentables:
+    - name: "Wheat (DE)"
+      amount: "3.25 lbs"
+    - name: "Pilsen (DE)"
+      amount: "2.125 oz"
+  mash:
+    - name: "Mash In"
+      strike_temp: "161F"
+      amount: "7 qts"
+      target_temp: "151F"
+      time: "90 min"
+  hops:
+    - name: "Perle"
+      type: "Boil"
+      amount: "0.2 oz"
+      time: "60 min"
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "0.5 tsp"
+      time: "15 min"
+    - name: "Corriander Seed"
+      type: "Boil"
+      amount: "0.5 oz"
+      time: "10 min"
+    - name: "Salt"
+      type: "Boil"
+      amount: "0.25 oz"
+      time: "10 min"
+  package_type: "Bottle"
+  package_date: 2017-07-08
+  carb_priming: "3.7 oz sugar"
+  og: 1.044
+  fg: 1.013
+  abv: 4.1%
+  notes: >-
+    Kettle soured before boil with a handful of unmilled grain, heating pad kept wort @ 100F for ~5 days.
+---
+My first, and so far only, successful lacto sour. This recipe came from a Facebook post within the New London Brew Club group.
+{% include other_brews.markdown %}
+{% include recipe.markdown %}
