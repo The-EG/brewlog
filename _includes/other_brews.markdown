@@ -5,6 +5,6 @@
 
 {% for post in posts %}
 {% if post.id == page.id %}{% continue %}{% endif %}
- - [{{post.date | date: site.minima.date_format}}]({{post.url}})
+ - [{{post.date | date: site.minima.date_format}}](/brewlog/{{post.url}})
 {% endfor %}
 {% endif %}

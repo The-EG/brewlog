@@ -75,7 +75,7 @@ recipe:
   abv: 7.1%
   notes: >-
 ---
-![black ipa trophy](/assets/black ipa trophy.jpg)
+![black ipa trophy](/brewlog/assets/black ipa trophy.jpg)
 
 My first recipe of my own creation, and also my first beer that was shared with more than just close friends...and it won 3rd place in a people's choice contest!
 {% include other_brews.markdown %}
