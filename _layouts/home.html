@@ -22,11 +22,11 @@ layout: default
       {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <!--<h3>-->
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        <!--</h3>-->
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+	<span class="post-meta">
+	  {{ post.brew_type }}
+	  {%- if post.recipe.style %}, {{ post.recipe.style }} {% endif %}
+	   - {{ post.recipe.size }}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
