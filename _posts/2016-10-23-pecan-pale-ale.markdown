@@ -4,6 +4,7 @@ title:  "Pecan Pale Ale"
 date:   2016-10-23
 tags:
   - pale ale
+brew_type: beer
 
 recipe:
   type: "All Grain"

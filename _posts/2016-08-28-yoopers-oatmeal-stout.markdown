@@ -6,6 +6,8 @@ tags:
   - stout
   - oatmeal stout
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   style: "Oatmeal Stout"
@@ -35,7 +37,7 @@ recipe:
       amount: "4 oz"
     - name: "Crystal 80L"
       amount: "4 oz"
-    - name: "Chocolate (US)"
+    - name: "Chocolate"
       amount: "1 oz"
   mash: 
     - name: "Mash in"

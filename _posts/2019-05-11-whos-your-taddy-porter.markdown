@@ -4,6 +4,7 @@ title: "Who's Your Taddy Porter"
 date: 2019-05-11
 categories:
   - porter
+brew_type: beer
   
 recipe:
   type: "All Grain"
@@ -20,10 +21,10 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "67F"
   fermentables: 
-    - name: "Pale Malt (UK)"
+    - name: "Pale (UK)"
       amount: "8 lbs 4 oz"
       perc: 77.6%
-    - name: "Brown Malt"
+    - name: "Brown"
       amount: "15 oz"
       perc: 8.8%
     - name: "Crystal 40L"

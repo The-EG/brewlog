@@ -5,6 +5,7 @@ date:   2018-02-18
 categories:
   - ipa
   - jalepeno
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -24,7 +25,7 @@ recipe:
     - name: "Pale (US)"
       amount: "6 lbs 9 oz"
       perc: 85.4%
-    - name: "Caramel 40L"
+    - name: "Crystal 40L"
       amount: "1 lbs 2 oz"
       perc: 14.6%
   mash: 

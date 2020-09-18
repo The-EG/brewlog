@@ -6,6 +6,8 @@ tags:
   - ale
   - american amber ale
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   style: "American Amber Ale"
@@ -20,9 +22,9 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "2-Row Malt"
+    - name: "2-Row (US)"
       amount: "4.5 lbs"
-    - name: "Caramel 40L"
+    - name: "Crystal 40L"
       amount: "1 lbs"
     - name: "Roasted Barley"
       amount: "1 oz"

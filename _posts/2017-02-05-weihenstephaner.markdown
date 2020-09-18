@@ -5,7 +5,7 @@ date: 2017-02-05
 tags:
   - clone
   - weissbier
-
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,9 +21,9 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 72F
   fermentables:
-    - name: "Wheat (DE)"
+    - name: "Wheat (German)"
       amount: "3 lbs 8 oz"
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "2 lbs"
   mash:
     - name: "Mash In"

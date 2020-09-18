@@ -4,6 +4,8 @@ title:  "60 Minute IPA"
 date:   2016-04-02
 tags: [ipa,clone]
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   style: "American IPA"

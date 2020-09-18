@@ -5,6 +5,7 @@ date: 2017-05-21
 tags:
   - smoked
   - pale ale
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -20,7 +21,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 66F
   fermentables:
-    - name: "Rahr 2-Row"
+    - name: "2-Row (US)"
       amount: "5 lbs"
     - name: "Rahr Pale - smoked with oak ~1.5 hrs"
       amount: "1.5 lbs"

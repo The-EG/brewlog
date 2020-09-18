@@ -3,6 +3,7 @@ layout: post
 title: "Maple Wheat Ale"
 date: 2016-01-10
 tags: weisenbock
+post_type: beer
 
 recipe:
   type: "All Grain"
@@ -14,9 +15,9 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "2-Row"
+    - name: "2-Row (US)"
       amount: "3 lbs 12 oz"
-    - name: "Wheat (DE)"
+    - name: "Wheat (German)"
       amount: "4 lbs"
   mash:
     - name: "Mash In"

@@ -4,6 +4,7 @@ title:  "Taylor's CaraLager"
 date:   2017-11-21
 categories:
   - lager
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -20,7 +21,7 @@ recipe:
   ferm_time: "15 days"
   ferm_temp: "67F"
   fermentables: 
-    - name: "Rahr - 2 Row"
+    - name: "2-Row (US)"
       amount: "5 lbs"
       perc: 89.9%
     - name: "Caramunich 80"

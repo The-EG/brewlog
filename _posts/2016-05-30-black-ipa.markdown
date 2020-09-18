@@ -6,6 +6,7 @@ tags:
   - ipa
   - black ipa
 
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,7 +22,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 68F
   fermentables:
-    - name: "Pale - US"
+    - name: "Pale (US)"
       amount: "6 lbs"
     - name: "Crystal 45L"
       amount: "1 lb"

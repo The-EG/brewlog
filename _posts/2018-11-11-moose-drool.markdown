@@ -5,6 +5,7 @@ date:   2018-11-11"
 tags:
   - brown ale
   - clone
+brew_type: beer
 
 recipe:
   type: "All Grain"

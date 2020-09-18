@@ -4,6 +4,8 @@ title: "Maple Wheat Ale"
 date: 2016-07-10
 tags: weisenbock
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   size: 2.75
@@ -14,7 +16,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "Wheat (DE)"
+    - name: "Wheat (German)"
       amount: "4.75 lbs"
     - name: "Pale (US)"
       amount: "4.5 lbs"

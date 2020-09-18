@@ -4,6 +4,7 @@ title:  "Big Mamma's Barley Wine"
 date:   2017-12-22
 tags:
   - barley wine
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -19,10 +20,10 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "67F"
   fermentables:
-    - name: "2 Row (US)"
+    - name: "2-Row (US)"
       amount: "8 lbs 4 oz"
       perc: 78.6%
-    - name: "Caramel 20L"
+    - name: "Crystal 20L"
       amount: "1 lbs 2 oz"
       perc: 10.7%
   mash:

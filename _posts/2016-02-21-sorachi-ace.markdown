@@ -5,6 +5,8 @@ date:   2016-02-21"
 tags:
   - ale
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   size: "2.5 gallon"
@@ -18,7 +20,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "5.5 lbs"
   mash:
     - name: "Step 1"
@@ -37,7 +39,7 @@ recipe:
       target_temp: "152F"
       time: "15 min"
   hops:
-    - name: "Candi Sugar"
+    - name: "Candi Sugar (Light)"
       type: "Boil"
       amount: "8 oz"
       time: "75 min"

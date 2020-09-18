@@ -5,6 +5,7 @@ date: 2019-01-21
 tags:
   - american pale ale
   - pale ale
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,13 +22,13 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 67F
   fermentables:
-    - name: "Pale - US"
+    - name: "Pale (US)"
       amount: "9 lbs 2 oz"
       perc: 88%
     - name: "Crystal 40L"
       amount: "10 oz"
       perc: 6%
-    - name: "Munich Malt"
+    - name: "Munich"
       amount: "10 oz"
       perc: 6%
   mash:

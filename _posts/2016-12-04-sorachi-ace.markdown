@@ -4,6 +4,7 @@ title:  "Sorachi Ace"
 date:   2016-12-04"
 tags:
   - saison
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -18,7 +19,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "6 lbs"
   mash:
     - name: "Step 1"

@@ -6,6 +6,7 @@ tags:
   - holidy
   - brewing classic styles
   - spiced beer
+brew_type: beer
 
 recipe:
   type: "All Grain"

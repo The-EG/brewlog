@@ -6,6 +6,8 @@ tags:
   - clone
   - ipa
 
+brew_type: beer
+
 recipe:
   type: "All Grain"
   style: "American IPA"

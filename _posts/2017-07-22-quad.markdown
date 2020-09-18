@@ -5,6 +5,7 @@ date: 2017-07-22
 tags:
   - bjcp: 26D
   - belgian dark strong ale
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,13 +22,13 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 67F
   fermentables:
-    - name: "Rahr 2 Row"
+    - name: "2-Row (US)"
       amount: "8 lbs 12 oz"
       perc: 84.6%
-    - name: "Caramel 80L"
+    - name: "Crystal 80L"
       amount: "8.5 oz"
       perc: 5.1%
-    - name: "Caramel 120L"
+    - name: "Crystal 120L"
       amount: "8.5 oz"
       perc: 5.1%
   mash:

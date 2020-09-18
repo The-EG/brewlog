@@ -4,6 +4,7 @@ title:  "Taylor's CaraLager"
 date:   2020-06-28
 categories:
   - lager
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -20,7 +21,7 @@ recipe:
   ferm_time: "21 days"
   ferm_temp: "50F"
   fermentables: 
-    - name: "Rahr - 2 Row"
+    - name: "2-Row (US)"
       amount: "8 lbs 12 oz"
       perc: 89.2%
     - name: "Crystal 80L"

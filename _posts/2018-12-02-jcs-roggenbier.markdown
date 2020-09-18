@@ -5,6 +5,7 @@ date: 2018-12-02
 tags:
   - roggenbier
   - brewing classic styles
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,16 +22,17 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 62F
   fermentables:
-    - name: "Rye Malt"
+    - name: "Rye"
       amount: "5 lbs 10 oz"
       perc: 46.4%
-    - name: "Munich Malt"
+    - name: "Munich"
       amount: "3 lbs"
       perc: 24.7%
     - name: "Pilsner (German)"
       amount: "2 lbs 10 oz"
       perc: 21.6%
-    - name: "Carahmunich Malt (56 SRM)"
+    - name: "Caramunich"
+      srm: 56
       amount: "12 oz"
       perc: 6.2%
     - name: "Carafa II"

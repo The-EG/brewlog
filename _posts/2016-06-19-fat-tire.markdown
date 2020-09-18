@@ -6,6 +6,7 @@ tags:
   - amber ale
   - clone
 
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,7 +22,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 68F
   fermentables:
-    - name: "Pale - US"
+    - name: "Pale (US)"
       amount: "4.75 lbs"
     - name: "Munich II"
       amount: "9 oz"

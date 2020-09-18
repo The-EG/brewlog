@@ -6,6 +6,7 @@ tags:
   - stout
   - oatmeal stout
   - bjcp: 16B
+brew_type: beer
 
 recipe:
   type: "All Grain"

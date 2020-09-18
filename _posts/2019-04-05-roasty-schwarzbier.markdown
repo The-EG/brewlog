@@ -4,6 +4,7 @@ title: "Roasty Schwarzbier"
 date: 2019-04-05
 categories:
   - schwarzbier
+brew_type: beer
   
 recipe:
   type: "All Grain"
@@ -20,7 +21,7 @@ recipe:
   ferm_time: "21 days"
   ferm_temp: "50F"
   fermentables: 
-    - name: "Munich Malt"
+    - name: "Munich"
       amount: "5 lbs"
       perc: 46.5%
     - name: "Pilsner (Belgian)"

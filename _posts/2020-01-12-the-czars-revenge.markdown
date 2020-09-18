@@ -5,6 +5,7 @@ date: 2020-01-12
 tags:
   - brewing classic styles
   - imperial stout
+brew_type: beer
 
 recipe:
   type: "All Grain"

@@ -5,6 +5,7 @@ date: 2018-06-24
 tags:
   - saison
   - brewing classic styles
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,7 +22,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 68F
   fermentables:
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "7 lbs 5 oz"
       perc: 77.5%
     - name: "Munich"

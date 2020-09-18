@@ -4,6 +4,7 @@ title: "Pepper Pale Ale"
 date: 2016-02-06
 tags:
   - pale ale
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -15,7 +16,7 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "68F"
   fermentables:
-    - name: "Pale 2-Row (US)"
+    - name: "Pale (US)"
       amount: "5.5 lbs"
   mash:
     - name: "Mash In"

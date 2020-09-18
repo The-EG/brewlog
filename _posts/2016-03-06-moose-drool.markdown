@@ -4,6 +4,8 @@ title:  "Moose Drool"
 date:   2016-03-06"
 tags:
   - brown ale
+  
+brew_type: beer
 
 recipe:
   type: "All Grain"

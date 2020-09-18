@@ -6,6 +6,7 @@ tags:
   - sour
   - gose
   - lacto
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,9 +22,9 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 68F
   fermentables:
-    - name: "Wheat (DE)"
+    - name: "Wheat (German)"
       amount: "3.25 lbs"
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "2.125 oz"
   mash:
     - name: "Mash In"

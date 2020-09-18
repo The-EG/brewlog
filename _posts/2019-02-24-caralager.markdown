@@ -4,7 +4,8 @@ title: "Taylor's CaraLager"
 date: 2019-02-24
 categories:
   - lager
-  
+brew_type: beer
+
 recipe:
   type: "All Grain"
   style: "2B - Amber Lager"
@@ -20,13 +21,13 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: "56F"
   fermentables: 
-    - name: "Rahr - 2 Row"
+    - name: "2-Row (US)"
       amount: "8 lbs 12 oz"
       perc: 89.2%
     - name: "Crystal 80L"
       amount: "5 oz"
       perc: 3.2%
-    - name: "Munich Malt"
+    - name: "Munich"
       amount: "5 oz"
       perc: 3.2%
   mash: 

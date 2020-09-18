@@ -5,6 +5,8 @@ date:   2016-04-17
 tags:
   - stout
   - clone
+  
+brew_type: beer
 
 recipe:
   type: "All Grain"

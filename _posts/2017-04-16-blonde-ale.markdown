@@ -4,6 +4,7 @@ title: "Blonde Ale #1"
 date: 2017-04-16
 tags:
   - blonde ale
+brew_type: beer
 
 recipe:
   type: "All Grain"

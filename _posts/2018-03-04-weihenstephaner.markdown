@@ -5,6 +5,7 @@ date: 2018-03-04
 tags:
   - clone
   - weissbier
+brew_type: beer
 
 recipe:
   type: "All Grain"
@@ -21,10 +22,10 @@ recipe:
   ferm_time: "10 days"
   ferm_temp: 72F
   fermentables:
-    - name: "Wheat (DE)"
+    - name: "Wheat (German)"
       amount: "3 lbs 12 oz"
       perc: 62.5%
-    - name: "Pilsen (DE)"
+    - name: "Pilsner (German)"
       amount: "2 lbs"
       perc: 33.3%
     - name: "Rice Hulls"
