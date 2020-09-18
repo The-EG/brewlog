@@ -9,7 +9,7 @@ brew_type: beer
 recipe:
   type: "All Grain"
   size: "1.25 gallon"
-  style: "Barley Wine"
+  style: "22C - American Barleywine"
   est_og: 1.108
   est_fg: 1.022
   est_abv: 12.7%

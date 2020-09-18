@@ -9,7 +9,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "27 - Historical (Roggenbier)"
+  style: "27A - Roggenbier"
   size: "5.25 gallon"
   efficiency: 72%
   est_og: 1.055

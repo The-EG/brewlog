@@ -8,7 +8,8 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  size: 2.75
+  size: 2.75 gallon
+  style: "18B American Pale Ale"
   est_og: 1.056
   est_fg: 1.014
   boil_time: "75 min"

@@ -9,6 +9,7 @@ brew_type: beer
 recipe:
   type: "All Grain"
   size: "2.75 gallon"
+  style: "25B - Saison"
   est_og: 1.065
   est_fg: 1.016
   est_abv: 6.7%

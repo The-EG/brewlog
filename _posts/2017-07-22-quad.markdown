@@ -10,7 +10,7 @@ brew_type: beer
 recipe:
   type: "All Grain"
   efficiency: 72%
-  style: "Belgian Dark Strong Ale"
+  style: "26D - Belgian Dark Strong Ale"
   size: "2.75 gallon"
   est_og: 1.094
   est_fg: 1.015

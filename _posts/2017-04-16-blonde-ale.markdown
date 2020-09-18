@@ -8,7 +8,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Blonde Ale"
+  style: "18A - Blonde Ale"
   size: "2.75 gallon"
   est_og: 1.045
   est_fg: 1.011

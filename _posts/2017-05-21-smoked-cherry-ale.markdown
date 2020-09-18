@@ -9,7 +9,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Pale Ale"
+  style: "18B - American Pale Ale"
   size: "2.75 gallon"
   est_og: 1.058
   est_fg: 1.012

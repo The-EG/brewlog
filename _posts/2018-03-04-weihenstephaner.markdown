@@ -9,7 +9,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Weissbier"
+  style: "10A - Weissbier"
   size: "3 gallon"
   efficiency: 72%
   est_og: 1.053

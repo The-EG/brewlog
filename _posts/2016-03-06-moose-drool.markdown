@@ -10,6 +10,7 @@ brew_type: beer
 recipe:
   type: "All Grain"
   size: "2.5 gallon"
+  style: "19C - American Brown Ale"
   est_og: 1.054
   est_fg: 1.014
   est_abv: "5.3%"

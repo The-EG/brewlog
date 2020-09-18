@@ -9,7 +9,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Black IPA"
+  style: "21B - Black IPA"
   size: "5.25 gallon"
   est_og: 1.066
   est_fg: 1.016

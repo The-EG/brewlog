@@ -10,7 +10,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "American IPA"
+  style: "21A - American IPA"
   size: "2.75 gallon"
   efficiency:
   est_og: 1.077

@@ -10,7 +10,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Oatmeal Stout"
+  style: "16B - Oatmeal Stout"
   size: "2.75 gallon"
   efficiency:
   est_og: 1.049

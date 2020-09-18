@@ -9,7 +9,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Weissbier"
+  style: "10A - Weissbier"
   size: "2.75 gallon"
   est_og: 1.054
   est_fg: 1.014

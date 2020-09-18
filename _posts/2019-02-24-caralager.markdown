@@ -8,7 +8,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "2B - Amber Lager"
+  style: "2B - International Amber Lager"
   size: "5.25 gallon"
   efficiency: 72%
   est_og: 1.051

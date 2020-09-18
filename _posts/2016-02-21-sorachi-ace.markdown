@@ -3,13 +3,15 @@ layout: post
 title:  "Sorachi Ace"
 date:   2016-02-21"
 tags:
-  - ale
+  - saison
+  - clone
 
 brew_type: beer
 
 recipe:
   type: "All Grain"
   size: "2.5 gallon"
+  style: "25B - Saison"
   est_og: 1.065
   est_fg: 1.016
   est_abv: "6.3%"
@@ -70,6 +72,8 @@ recipe:
   fg: 1.010
   abv: 7.2%
 ---
+A clone recipe for Brooklyn Brewery's Sorachi Ace Saison.
+
 Lemon and dill sound like an odd combination, but it's actually quite good!
 {% include other_brews.markdown %}
 {% include recipe.markdown %}

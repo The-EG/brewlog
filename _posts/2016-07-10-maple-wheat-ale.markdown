@@ -8,7 +8,8 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  size: 2.75
+  size: 2.75 gallon
+  style: "10C - Weizenbock"
   est_og: 1.091
   est_fg: 1.023
   boil_time: "60 min"

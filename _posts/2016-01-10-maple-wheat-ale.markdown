@@ -3,11 +3,12 @@ layout: post
 title: "Maple Wheat Ale"
 date: 2016-01-10
 tags: weisenbock
-post_type: beer
+brew_type: beer
 
 recipe:
   type: "All Grain"
-  size: 2.5
+  size: 2.5 gallon
+  style: "10C - Weizenbock"
   est_og: 1.083
   est_fg: 1.016
   boil_time: "60 min"

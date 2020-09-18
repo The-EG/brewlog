@@ -8,6 +8,7 @@ brew_type: beer
 recipe:
   type: "All Grain"
   size: "2.75 gallon"
+  style: "19A - American Amber Ale"
   est_og: 1.052
   est_fg: 1.016
   boil_time: "70 min"

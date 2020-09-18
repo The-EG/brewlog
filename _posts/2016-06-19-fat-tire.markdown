@@ -10,7 +10,7 @@ brew_type: beer
 
 recipe:
   type: "All Grain"
-  style: "Amber Ale"
+  style: "19A - American Amber Ale"
   size: "2.75 gallon"
   est_og: 1.053
   est_fg: 1.013
