@@ -1,0 +1,95 @@
+---
+layout: post
+title: "Apple Ale"
+date: 2020-10-18
+tags:
+  - ale
+  - fruit
+  - apple
+brew_type: beer
+
+recipe:
+recipe:
+  type: "All Grain"
+  style: "19A - Amber and Brown American Beer"
+  size: "5.25 gallon"
+  efficiency: 72%
+  est_og: 1.053
+  est_fg: 1.010
+  est_abv: 5.6%
+  color: 16.6
+  ibus: 29.3
+  boil_time: "60 min"
+  yeast: "US-05"
+  ferm_time: "10 days"
+  ferm_temp: 68F
+  fermentables:
+    - name: "2 Row"
+      amount: "8 lbs 12 oz"
+      perc: 84.8%
+    - name: "Crystal 40L"
+      amount: "10 oz"
+      perc: 6.1%
+    - name: "Chocolate (450 SRM)"
+      amount: "3 oz"
+      perc: 1.8%
+  mash:
+    - name: "Mash In"
+      strike_temp: "164F"
+      amount: "14 qts"
+      target_temp: "154F"
+      time: "60 min"
+  sparge: "batch sparge, 2 steps, drain then 4.65 gallons"
+  hops:
+    - name: Molasses
+      type: Boil
+      perc: 7.3%
+      amount: 12 oz
+    - name: "Willamette"
+      type: "Boil"
+      aa: 4.2%
+      ibu: 23.3
+      amount: 1.5 oz
+      time: "60 min"
+    - name: "Willamette"
+      type: "Boil"
+      aa: 4.2%
+      ibu: 6.0
+      amount: 0.5 oz
+      time: 30 min
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "1 tsp"
+      time: "15 min"
+    - name: "East Kent Goldings"
+      type: "Boil"
+      aa: 5%
+      ibu: 5.45
+      amount: "1.27 oz"
+      time: "10 min"
+    - name: "Cubed Apples (Gala)"
+      type: Steep
+      amount: 4 lbs 8 oz
+      time: "30 min"
+  package_type: 
+  package_date: 
+  carb_priming: 
+  og: 1.053
+  fg: 
+  abv: 
+  notes: >-
+    Actual mash temp: 152.4F
+    Added apples at flameout, steeped for 15 minutes, then began chilling, steeped while chilling, then drained for 10 minutes before removing.
+---
+![apples](/brewlog/assets/apples.png)
+
+I was trying to figure out what to brew next and complaining to Suzanne that I wasn't inspired by anything. Nothing sounded good. It was like being hungry but not wanting food.
+
+So, I decided I should do something appropriate for the season, and apples came to mind. Yeah! I've never done anything with apples, so that should be interesting.
+
+After some Googling, I decided I would need a lot of apples...like 9 lbs worth. Half would be cubed (that's the pic above) and steeped at the end of the boil, and half would be shredded and go in during secondary.
+
+I started with a basic brown/amber ale and added some Molasses; I'm going for a 'candied apple' effect, but hopefully not too sweet or overpowering...
+
+{% include other_brews.markdown %}
+{% include recipe.markdown %}
