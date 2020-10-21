@@ -2,6 +2,7 @@
 layout: post
 title: "The Czar's Revenge"
 date: 2020-09-07
+date_modified: 2010-10-19
 tags:
   - brewing classic styles
   - imperial stout
@@ -68,11 +69,11 @@ recipe:
       amount: "2.54 oz"
       time: "1 min"
   package_type: "Keg"
-  package_date: 
-  carb_priming:
+  package_date: 2020-10-18
+  carb_priming: 
   og: 1.086
-  fg: 
-  abv: 
+  fg: 1.025
+  abv: 8%
   notes: >-
     used CTZ (15% aa) hops instead of Magnum
     collected 5.25 gallons (perfect volume but low OG...~62%)
