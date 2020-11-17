@@ -2,6 +2,7 @@
 layout: post
 title: "Apple Ale"
 date: 2020-10-18
+modified_date: 2020-11-17
 tags:
   - ale
   - fruit
@@ -71,15 +72,19 @@ recipe:
       type: Steep
       amount: 4 lbs 8 oz
       time: "30 min"
-  package_type: 
-  package_date: 
-  carb_priming: 
+  package_type: keg
+  package_date: 2020-11-08
+  carb_priming: 12 PSI @ 34F
   og: 1.053
-  fg: 
-  abv: 
+  fg: 1.004 (inaccurate due to apples/water mixture)
+  abv: 5.5% (a guess due to inaccurate FG)
   notes: >-
-    Actual mash temp: 152.4F
-    Added apples at flameout, steeped for 15 minutes, then began chilling, steeped while chilling, then drained for 10 minutes before removing.
+    - Actual mash temp 152.4F 
+
+    - Added apples at flameout, steeped for 15 minutes, then began chilling, 
+      steeped while chilling, then drained for 10 minutes before removing.
+    - Shredded 4.5 lbs apples, added to water with 2 cinnamon sticks, brought to ~180F and 
+      then let cool. Racked beer on top for secondary (2020-10-25)
 ---
 ![apples](/brewlog/assets/apples.png)
 
@@ -90,6 +95,10 @@ So, I decided I should do something appropriate for the season, and apples came 
 After some Googling, I decided I would need a lot of apples...like 9 lbs worth. Half would be cubed (that's the pic above) and steeped at the end of the boil, and half would be shredded and go in during secondary.
 
 I started with a basic brown/amber ale and added some Molasses; I'm going for a 'candied apple' effect, but hopefully not too sweet or overpowering...
+
+*2020-11-17*: Not bad! When I kegged this I was worried the cinnamon was going to overpower everything, but it has mellowed out a bit while carbing. I don't know that it makes me think of apple, but it's definitely a winter-y spiced ale.
+
+![apple ale](/brewlog/assets/apple_ale_finish.png)
 
 {% include other_brews.markdown %}
 {% include recipe.markdown %}
