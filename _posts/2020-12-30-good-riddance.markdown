@@ -2,7 +2,7 @@
 layout: post
 title: Good Riddance!
 date: 2020-12-30
-modified_date: 
+modified_date: 2021-01-16
 tags:
   - strong belgian ale
 brew_type: beer
@@ -49,17 +49,19 @@ recipe:
       amount: "1 tsp"
       time: "10 min"
   package_type: keg
-  package_date: 
+  package_date: 2021-01-16
   carb_priming: 12 PSI @ 34F
   og: 1.092
-  fg: 
-  abv: 
+  fg: 1.004
+  abv: 11.5%
   notes:  >
     - Mash temp 143F; added 1qt boiling water -> 147F, sparge 1 qt less
 
     - Collected 4.75 gallons of wort, boiled too hot!
 ---
 My final brew of 2020! I decided to try a Belgian Golden Strong Ale, but this is made with the ingredients that I already had on hand.
+
+*Update 2021-01-16:* Kegged it today and had a taste...quite nice! A bit of spice/phenolics and quite drinkable even warm and flat. If it keeps this flavor when chilled and carbed it will be quite drinkable and won't even give an indication that it's 11.5%!
 
 {% include other_brews.markdown %}
 {% include recipe.markdown %}
