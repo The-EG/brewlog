@@ -10,7 +10,6 @@ tags:
 brew_type: beer
 
 recipe:
-recipe:
   type: "All Grain"
   style: "19A - Amber and Brown American Beer"
   size: "5.25 gallon"
