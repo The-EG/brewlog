@@ -47,6 +47,7 @@ module Jekyll
     def grain_weights(posts)
       grains = {}
       posts.each do |post|
+        if post['recipe'].nil? then next end
         post['recipe']['fermentables'].each do |grain|
           if not grains.include?(grain['name'])
             grains[grain['name']] = 0
@@ -60,6 +61,7 @@ module Jekyll
     def boil_ingr_weights(posts)
       hops = {}
       posts.each do |post|
+        if post['recipe'].nil? then next end
         if not post['recipe']['hops'] then next end
         post['recipe']['hops'].each do |hop|
           if not hops.include?(hop['name'])

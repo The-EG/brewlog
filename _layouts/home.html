@@ -26,7 +26,8 @@ layout: default
 	<span class="post-meta">
 	  {{ post.brew_type }}
 	  {%- if post.recipe.style %}, {{ post.recipe.style }} {% endif %}
-	   - {{ post.recipe.size }}</span>
+    {%- if post.recipe.size %} - {{ post.recipe.size }}{% endif %}
+    {%- if post.size %} - {{ post.size }}{% endif %}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
