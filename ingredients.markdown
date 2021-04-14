@@ -3,6 +3,9 @@ layout: page
 title: Ingredients
 permalink: /ingredients/
 ---
+
+{% comment %}
+
 {% assign grains = site.posts | grain_weights %}
 {% assign hops = site.posts | boil_ingr_weights %}
 
@@ -28,3 +31,5 @@ Here're some of the ingredients I've brewed with over the years...
  - {{ hop[0] }}: {{ hop[1] | format_weight }}
 {% endif -%}
 {% endfor %}
+
+{% endcomment %}
