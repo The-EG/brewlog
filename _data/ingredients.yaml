@@ -165,8 +165,8 @@ hops:
 - amount: 0.0708738
   amount_str: 2.50 oz
   name: Kent Golding
-- amount: 0.0572660304
-  amount_str: 2.02 oz
+- amount: 0.066621372
+  amount_str: 2.35 oz
   name: Fuggles
 - amount: 0.0504621456
   amount_str: 1.78 oz
@@ -198,9 +198,6 @@ hops:
 - amount: 0.01417476
   amount_str: 0.50 oz
   name: Corriander Seed
-- amount: 0.0093553416
-  amount_str: 0.33 oz
-  name: Fuggle
 - amount: 0.008504856
   amount_str: 0.30 oz
   name: Saaz
