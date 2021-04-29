@@ -4,22 +4,22 @@ on:
   push:
     branches:
       - gh-pages
-    paths:
-      - '_posts/**.markdown'
+    #paths:
+    #  - '_posts/**.markdown'
 
 jobs:
   build-ingredients-data:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Git Identity
-        run: |
-          git config --local user.name "Bearded Husbutt Brewing"
-          git config --local user.email "bhbrewing@no_email.no"
       - name: Checkout Repo
         uses: actions/checkout@v2
         with:
           ref: gh-pages
+      - name: Setup Git Identity
+        run: |
+          git config --local user.name "Bearded Husbutt Brewing"
+          git config --local user.email "bhbrewing@no_email.no"
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
