@@ -1,0 +1,35 @@
+name: Build Ingredients Data
+
+on:
+  push:
+    branches:
+      - gh-pages
+    paths:
+      - '_posts/**.markdown'
+
+jobs:
+  build-ingredients-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Git Identity
+        run: |
+          git config --local user.name "Bearded Husbutt Brewing"
+          git config --local user.email "bhbrewing@no_email.no"
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Run scripts/build_ingredients_yaml.py
+        run: python ./scripts/build_ingredients_yaml.py
+      - name: Commit Updated _data/ingredients.yaml
+        run: |
+          git add _data/ingredients.yaml
+          git commit -m "Update _data/ingredients.yaml"
+          git push origin gh-pages
+
+      
