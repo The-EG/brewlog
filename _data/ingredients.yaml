@@ -38,6 +38,9 @@ fermentables:
 - amount: 1.9844665599999998
   amount_str: 4 lbs 6.00 oz
   name: Roasted Barley
+- amount: 1.58757336
+  amount_str: 3 lbs 8.00 oz
+  name: Pilsner (2-Row)
 - amount: 1.5166993199999999
   amount_str: 3 lbs 5.50 oz
   name: Crystal 80L
@@ -47,6 +50,9 @@ fermentables:
 - amount: 1.2757285999999999
   amount_str: 2 lbs 13.00 oz
   name: Crystal 60L
+- amount: 1.0489324
+  amount_str: 2 lbs 5.00 oz
+  name: White Wheat
 - amount: 1.01491292
   amount_str: 2 lbs 3.80 oz
   name: Flaked Barley
@@ -186,8 +192,8 @@ hops:
 - amount: 0.023388354
   amount_str: 0.83 oz
   name: Amarillo
-- amount: 0.0182854404
-  amount_str: 0.64 oz
+- amount: 0.023104858800000003
+  amount_str: 0.82 oz
   name: Liberty
 - amount: 0.0181436928
   amount_str: 0.64 oz
