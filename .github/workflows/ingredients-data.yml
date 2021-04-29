@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
+      - name: Install PyYaml
+        run: pip install pyyaml
       - name: Run scripts/build_ingredients_yaml.py
         run: python ./scripts/build_ingredients_yaml.py
       - name: Commit Updated _data/ingredients.yaml
