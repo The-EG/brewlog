@@ -47,7 +47,7 @@ recipe:
       time: "10 min"
   sparge: "fly sparge with 2.4 qts water"
   hops:
-    - name: "Fuggle"
+    - name: "Fuggles"
       type: "Boil"
       amount: "0.33 oz"
       time: "60 min"
