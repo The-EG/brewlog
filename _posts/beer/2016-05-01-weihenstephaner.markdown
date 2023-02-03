@@ -54,4 +54,4 @@ recipe:
 ---
 A clone recipe for Weihenstephaner Heffeweissbier, on my my favorite wheat beers.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

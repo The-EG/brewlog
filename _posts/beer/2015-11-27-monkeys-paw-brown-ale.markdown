@@ -69,4 +69,4 @@ recipe:
 I felt bad buying such a tiny amount of grain to do a 1 gallon batch, so I bought 2 gallons worth instead, and brewed this one twice. This is the second batch.
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

@@ -47,4 +47,4 @@ recipe:
 This was way too sweet to drink, but it made a decent cooking beer.
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

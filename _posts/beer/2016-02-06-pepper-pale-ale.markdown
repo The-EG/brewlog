@@ -53,4 +53,4 @@ recipe:
 This was my first attempt at adding anything during fermentation. I added about 1/3 of a lb of chopped habaneros and a sliced up beet after primary fermentation. It was too spicy to even try to drink! It was also bright red from the beet.
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

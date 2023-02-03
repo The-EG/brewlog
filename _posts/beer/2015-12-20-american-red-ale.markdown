@@ -46,4 +46,4 @@ recipe:
 ---
 In a way this was my first 'real' brew. I found this recipe online and decided to try it. One of my first experiences with craft beer was Fat Tire by New Belgium brewery, and remains one of my favorites today, so I thought a red ale would be a good way to start.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

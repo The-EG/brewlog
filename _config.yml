@@ -27,7 +27,7 @@ baseurl: "/brewlog/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+#theme: minima
 
 ignore_theme_config: true
 #show_excerpts: true
@@ -39,6 +39,10 @@ minima:
   date_format: "%Y-%m-%d"
 
 facebook_username: tstalkington
+mastodon:
+ -
+    instance: hachyderm.io
+    username: TheEG
 
 plugins:
   - jekyll-feed

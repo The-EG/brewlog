@@ -64,4 +64,4 @@ recipe:
 ---
 A clone recipe for the popular Dogfish Head 60 Minute IPA
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

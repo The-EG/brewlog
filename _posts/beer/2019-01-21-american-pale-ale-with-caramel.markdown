@@ -77,4 +77,4 @@ recipe:
     Won 2nd place people's choice award @ Operation Homebrew May Brewday 2019
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

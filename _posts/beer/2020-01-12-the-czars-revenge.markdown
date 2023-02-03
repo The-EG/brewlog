@@ -78,4 +78,4 @@ recipe:
 ---
 From the book Brewing Classic Styles. This is my goto Stout.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

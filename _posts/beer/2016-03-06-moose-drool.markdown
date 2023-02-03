@@ -61,4 +61,4 @@ recipe:
 ---
 A clone recipe of the beer 'Moose Drool' that is popular in the Pacific Northwest.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

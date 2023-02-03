@@ -70,4 +70,4 @@ My first brew that wasn't from a kit. Recipe is modified from the book 'The Comp
 
 Nice flavor, but a bit thinner than I was expecting.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

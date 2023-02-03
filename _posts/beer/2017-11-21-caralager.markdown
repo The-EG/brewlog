@@ -79,4 +79,4 @@ recipe:
     - pitched 1 pkg of yeast @ 69F
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

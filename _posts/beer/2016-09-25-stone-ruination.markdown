@@ -67,4 +67,4 @@ recipe:
 A clone recipe for Stone Ruination but with Cascade hops; I think I couldn't find the hops the recipe called for at the time. I don't even remember making this one, so I don't think it was anything special...
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

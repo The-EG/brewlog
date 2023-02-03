@@ -93,4 +93,4 @@ recipe:
     2 jalepenos added to keg then removed after 7 days
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

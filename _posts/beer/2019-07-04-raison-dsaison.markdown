@@ -72,4 +72,4 @@ recipe:
 ---
 From the book Brewing Classic Styles
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

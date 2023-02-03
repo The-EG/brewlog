@@ -69,4 +69,4 @@ recipe:
 ---
 From 'Brewing Classic Styles'
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

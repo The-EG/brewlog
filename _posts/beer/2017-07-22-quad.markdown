@@ -3,7 +3,6 @@ layout: post
 title: "Quad #1"
 date: 2017-07-22
 tags:
-  - bjcp: 26D
   - belgian dark strong ale
 brew_type: beer
 
@@ -70,4 +69,4 @@ recipe:
 ---
 After visiting [Wild Heaven](https://wildheavenbeer.com) and trying Eschaton I knew I had to try making a Belgian Quad. This one turned out to be quite good!
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

@@ -69,4 +69,4 @@ recipe:
 ---
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

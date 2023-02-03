@@ -5,7 +5,6 @@ date:   2017-10-08
 tags:
   - stout
   - oatmeal stout
-  - bjcp: 16B
 brew_type: beer
 
 recipe:
@@ -78,4 +77,4 @@ recipe:
 ---
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

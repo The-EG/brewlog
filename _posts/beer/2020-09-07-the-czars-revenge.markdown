@@ -7,6 +7,7 @@ tags:
   - brewing classic styles
   - imperial stout
 brew_type: beer
+image: /assets/oak_spirals.png
 
 recipe:
   type: "All Grain"
@@ -93,4 +94,4 @@ I figured an imperial stout was as good a thing as any. The package says both st
 I'll see in a couple weeks how the flavor is.
  
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

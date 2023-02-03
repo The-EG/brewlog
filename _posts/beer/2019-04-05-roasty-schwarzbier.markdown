@@ -78,4 +78,4 @@ recipe:
     Fermented in refridgerator, set to 48F. raised temp to 63F 2010-04-21
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

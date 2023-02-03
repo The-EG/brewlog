@@ -6,6 +6,7 @@ tags:
   - ipa
   - black ipa
 brew_type: beer
+image: /assets/black-ipa-2020-vorlaf 1.jpg
 
 recipe:
   type: "All Grain"
@@ -87,4 +88,4 @@ recipe:
 ---
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

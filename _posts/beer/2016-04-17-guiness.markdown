@@ -54,4 +54,4 @@ recipe:
 ---
 A clone recipe for Guniess Draught
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

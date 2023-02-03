@@ -7,6 +7,7 @@ tags:
   - black ipa
 
 brew_type: beer
+image: /assets/black ipa trophy.jpg
 
 recipe:
   type: "All Grain"
@@ -80,4 +81,4 @@ recipe:
 
 My first recipe of my own creation, and also my first beer that was shared with more than just close friends...and it won 3rd place in a people's choice contest!
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

@@ -59,4 +59,4 @@ recipe:
 ---
 This smelled so good...but tasted horrible! Like smoked band-aids! Most likely from contaimination from the cherries...
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

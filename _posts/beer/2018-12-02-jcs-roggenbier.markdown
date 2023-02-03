@@ -77,4 +77,4 @@ recipe:
     From 'Brewing Classic Styles' pg 198
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

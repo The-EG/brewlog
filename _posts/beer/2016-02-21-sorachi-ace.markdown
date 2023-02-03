@@ -76,4 +76,4 @@ A clone recipe for Brooklyn Brewery's Sorachi Ace Saison.
 
 Lemon and dill sound like an odd combination, but it's actually quite good!
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

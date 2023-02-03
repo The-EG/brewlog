@@ -5,6 +5,7 @@ date: 2021-01-10
 tags: cheddar
 size: 1 lb
 brew_type: cheese
+image: /assets/stout-cheese-1.png
 ---
 ![sout-cheese-1](/brewlog/assets/stout-cheese-1.png)
 

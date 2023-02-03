@@ -67,4 +67,4 @@ recipe:
 A recipe from [homebrewtalk.com](https://www.homebrewtalk.com/threads/yoopers-oatmeal-stout.210376/)
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

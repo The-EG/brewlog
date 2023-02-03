@@ -51,4 +51,4 @@ recipe:
   abv: 5.6%
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

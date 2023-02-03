@@ -40,4 +40,4 @@ recipe:
 ---
 TODO: Notes are missing boil schedule, lookup from Brewing Classic Styles book
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

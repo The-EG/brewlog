@@ -60,4 +60,4 @@ recipe:
 ---
 My first, and so far only, successful lacto sour. This recipe came from a Facebook post within the New London Brew Club group.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

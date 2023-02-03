@@ -64,4 +64,4 @@ My final brew of 2020! I decided to try a Belgian Golden Strong Ale, but this is
 *Update 2021-01-16:* Kegged it today and had a taste...quite nice! A bit of spice/phenolics and quite drinkable even warm and flat. If it keeps this flavor when chilled and carbed it will be quite drinkable and won't even give an indication that it's 11.5%!
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

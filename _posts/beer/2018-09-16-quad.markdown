@@ -3,7 +3,6 @@ layout: post
 title: "Quad #1"
 date: 2018-09-16
 tags:
-  - bjcp: 26D
   - belgian dark strong ale
 brew_type: beer
 
@@ -72,4 +71,4 @@ recipe:
     Pitched the smack pack. I forgot to add the sugar during the boil! Insane efficency! But, that caused the fermentation to stall...too sweet to drink.
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

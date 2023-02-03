@@ -82,4 +82,4 @@ My lager recipe, but this time actually fermented with a lager yeast!
 
 This turned out really nice. Surprisingly clear for not being filtered or using any clarifiers other than irish moss. Light, clean but with a bit of a caramel note.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

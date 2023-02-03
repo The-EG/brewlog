@@ -1,35 +1,23 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="text-center text-lg-start bg-dark-subtle text-muted border-top">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="mb-4 fw-bold">{{ site.title | escape }}</h6>
+          <p>{{ site.author | escape }}</p>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="mb-4 fw-bold">&nbsp</h6>
+          {%- include social.html -%}
+        </div>
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="mb-4 fw-bold">&nbsp</h6>
+          <p>{{- site.description | escape -}}</p>
+        </div>
       </div>
     </div>
-
-  </div>
-
+  </section>
 </footer>

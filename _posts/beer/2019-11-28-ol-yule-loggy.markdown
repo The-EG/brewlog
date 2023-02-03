@@ -76,4 +76,4 @@ recipe:
 ---
 From the book Brewing Classic Styles. Turned out very nice, this will probably be a yearly brew for the holidays.
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+

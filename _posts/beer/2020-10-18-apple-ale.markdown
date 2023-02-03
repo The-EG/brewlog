@@ -8,6 +8,7 @@ tags:
   - fruit
   - apple
 brew_type: beer
+image: /assets/apples.png
 
 recipe:
   type: "All Grain"
@@ -102,4 +103,3 @@ I started with a basic brown/amber ale and added some Molasses; I'm going for a 
 *2020-12-30*: After aging a bit more this is quite nice. It definitely needed a month or so to mellow out.
 
 {% include other_brews.markdown %}
-{% include recipe.markdown %}

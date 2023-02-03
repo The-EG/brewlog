@@ -77,4 +77,4 @@ recipe:
    - 56F for 9 days, 67F for 3 weeks, 38F for 1 week
 ---
 {% include other_brews.markdown %}
-{% include recipe.markdown %}
+
