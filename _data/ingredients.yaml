@@ -2,8 +2,8 @@ fermentables:
 - amount: 73.00796430199999
   amount_str: 160 lbs 15.28 oz
   name: Pale (US)
-- amount: 27.66913614
-  amount_str: 60 lbs 0.00 oz
+- amount: 30.186573959999997
+  amount_str: 66 lbs 8.80 oz
   name: 2-Row (US)
 - amount: 16.588015730000002
   amount_str: 36 lbs 9.13 oz
@@ -23,8 +23,8 @@ fermentables:
 - amount: 3.96893344
   amount_str: 8 lbs 12.00 oz
   name: 2 Row
-- amount: 3.4869913599999998
-  amount_str: 7 lbs 11.00 oz
+- amount: 3.627605004
+  amount_str: 7 lbs 15.96 oz
   name: Crystal 40L
 - amount: 2.5514571999999998
   amount_str: 5 lbs 10.00 oz
@@ -126,8 +126,8 @@ hops:
 - amount: 1.0914565999999999
   amount_str: 2 lbs 6.50 oz
   name: Brown Sugar, Light
-- amount: 0.5370816563999998
-  amount_str: 1 lbs 2.94 oz
+- amount: 0.5654311764000001
+  amount_str: 1 lbs 3.95 oz
   name: Willamette
 - amount: 0.45359232
   amount_str: 16.00 oz
