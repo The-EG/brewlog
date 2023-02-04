@@ -66,21 +66,27 @@ recipe:
   fg: 
   abv: 
   notes:  >
----
-![equipment]({{ "/assets/itsbeenawhile/equipment.png" | relative_url }}){:.postImage}
 
+images:
+ - src: /assets/itsbeenawhile/equipment.png
+   desc: a rainy brew day
+ - src: /assets/itsbeenawhile/grain.png
+   desc: milled grain
+ - src: /assets/itsbeenawhile/mash.png
+   desc: mash
+ - src: /assets/itsbeenawhile/batch_sparge.png
+   desc: draining into the brew kettle
+ - src: /assets/itsbeenawhile/woops.png
+   desc: oops! too much wort...
+ - src: /assets/itsbeenawhile/boil1.png
+   desc: boiling off the extra...
+ - src: /assets/itsbeenawhile/boil2.png
+   desc: finally starting the actual boil
+---
 My first brew in a very long time, I figured it would be good to do something simple.
 
 It went mostly well except a miscalculation for sparge water volume. I ended up with a little over half a gallon too much wort!
 
-![equipment]({{ "/assets/itsbeenawhile/woops.png" | relative_url }}){:.postImage}
-
-Since the 4 gallon kettle was already full I had to boil it for 75 minutes first:
-
-![equipment]({{ "/assets/itsbeenawhile/boil1.png" | relative_url }}){:.postImage}
-
-Then there was finally enough room to pour in the rest and do the actual 60 minute boil:
-
-![equipment]({{ "/assets/itsbeenawhile/boil2.png" | relative_url }}){:.postImage}
+Since the 4 gallon kettle was already full I had to boil it for 75 minutes first, until there was finally enough room to pour in the rest and do the actual 60 minute boil.
 
 {% include other_brews.markdown %}
