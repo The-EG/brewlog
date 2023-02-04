@@ -1,25 +1,21 @@
 ---
 layout: default
 ---
-<article class="" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="container">   
-    <header class="">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-lg-8">
       <h1 class="" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="">
-        <time class="badge bg-secondary" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          {{ page.date | date: date_format }}
-        </time>
-    </header>
+      <time class="badge bg-secondary mb-4" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
 
-   
-    <div class="" itemprop="articleBody">
-      {{ content }}
+      
+      <div class="" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      {%- if page.recipe and page.brew_type == "beer" -%}{%- include beer-recipe.html -%}{%- endif -%}
     </div>
-
-    {%- if page.recipe and page.brew_type == "beer" -%}{%- include beer-recipe.html -%}{%- endif -%}
   </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</div>

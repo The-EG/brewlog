@@ -67,20 +67,20 @@ recipe:
   abv: 
   notes:  >
 ---
-![equipment]({{ "/assets/itsbeenawhile/equipment.png" | relative_url }})
+![equipment]({{ "/assets/itsbeenawhile/equipment.png" | relative_url }}){:.postImage}
 
 My first brew in a very long time, I figured it would be good to do something simple.
 
 It went mostly well except a miscalculation for sparge water volume. I ended up with a little over half a gallon too much wort!
 
-![equipment]({{ "/assets/itsbeenawhile/woops.png" | relative_url }})
+![equipment]({{ "/assets/itsbeenawhile/woops.png" | relative_url }}){:.postImage}
 
 Since the 4 gallon kettle was already full I had to boil it for 75 minutes first:
 
-![equipment]({{ "/assets/itsbeenawhile/boil1.png" | relative_url }})
+![equipment]({{ "/assets/itsbeenawhile/boil1.png" | relative_url }}){:.postImage}
 
 Then there was finally enough room to pour in the rest and do the actual 60 minute boil:
 
-![equipment]({{ "/assets/itsbeenawhile/boil2.png" | relative_url }})
+![equipment]({{ "/assets/itsbeenawhile/boil2.png" | relative_url }}){:.postImage}
 
 {% include other_brews.markdown %}

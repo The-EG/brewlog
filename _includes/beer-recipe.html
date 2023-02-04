@@ -1,10 +1,10 @@
-<div class="card mb-3">
+<div class="card mb-3 col-xl-8 mx-auto">
     <div class="card-header">
         <h2 class="card-title">Recipe: {% if page.recipe.name %}{{ page.recipe.name }}{% else %}{{ page.title }}{% endif %}</h2>
         <h5 class="card-subtitle text-muted">{% if page.recipe.style %}{{ page.recipe.style %}}{% endif %}</h5>
     </div>
     <div class="card-body bg-body-tertiary">
-        <table class="card-text table table-striped-columns table-sm">
+        <table class="card-text table table-sm">
             <tbody>
                 <tr>
                     <th>Type</th><td>{{ page.recipe.type }}</td>
