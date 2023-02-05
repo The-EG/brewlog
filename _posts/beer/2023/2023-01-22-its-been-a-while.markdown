@@ -22,6 +22,10 @@ images:
    desc: boiling off the extra...
  - src: /assets/itsbeenawhile/boil2.png
    desc: finally starting the actual boil
+ - src: /assets/itsbeenawhile/bottles1.png
+   desc: cleaned and sanitized bottles
+ - src: /assets/itsbeenawhile/bottles2.png
+   desc: bottled!
 
 recipe:
   type: All Grain
@@ -75,7 +79,7 @@ recipe:
       amount: 0.5 tsp
       time: 10 min
   package_type: Bottles
-  package_date: 
+  package_date: 2023-02-05
   carb_priming: 2.0 oz sucrose
   og: 1.057
   fg: 1.011
