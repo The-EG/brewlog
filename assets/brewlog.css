@@ -1,3 +1,23 @@
 img.postImage {
     max-width: 450px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bs-dark-bg-subtle);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--bs-tertiary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-secondary-color);
+}
