@@ -2,11 +2,26 @@
 layout: post
 title: It's Been a While
 date: 2023-01-22
-modified_date: 2021-02-03
+modified_date: 2021-02-05
 tags:
   - american amber ale
 brew_type: beer
 image: /assets/itsbeenawhile/equipment.png
+images:
+ - src: /assets/itsbeenawhile/equipment.png
+   desc: a rainy brew day
+ - src: /assets/itsbeenawhile/grain.png
+   desc: milled grain
+ - src: /assets/itsbeenawhile/mash.png
+   desc: mash
+ - src: /assets/itsbeenawhile/batch_sparge.png
+   desc: draining into the brew kettle
+ - src: /assets/itsbeenawhile/woops.png
+   desc: oops! too much wort...
+ - src: /assets/itsbeenawhile/boil1.png
+   desc: boiling off the extra...
+ - src: /assets/itsbeenawhile/boil2.png
+   desc: finally starting the actual boil
 
 recipe:
   type: All Grain
@@ -59,34 +74,21 @@ recipe:
       type: Boil
       amount: 0.5 tsp
       time: 10 min
-  package_type: 
+  package_type: Bottles
   package_date: 
-  carb_priming: 
-  og: 1.57
-  fg: 
-  abv: 
-  notes:  >
-
-images:
- - src: /assets/itsbeenawhile/equipment.png
-   desc: a rainy brew day
- - src: /assets/itsbeenawhile/grain.png
-   desc: milled grain
- - src: /assets/itsbeenawhile/mash.png
-   desc: mash
- - src: /assets/itsbeenawhile/batch_sparge.png
-   desc: draining into the brew kettle
- - src: /assets/itsbeenawhile/woops.png
-   desc: oops! too much wort...
- - src: /assets/itsbeenawhile/boil1.png
-   desc: boiling off the extra...
- - src: /assets/itsbeenawhile/boil2.png
-   desc: finally starting the actual boil
+  carb_priming: 2.0 oz sucrose
+  og: 1.057
+  fg: 1.011
+  abv: 6.0
 ---
 My first brew in a very long time, I figured it would be good to do something simple.
 
 It went mostly well except a miscalculation for sparge water volume. I ended up with a little over half a gallon too much wort!
 
 Since the 4 gallon kettle was already full I had to boil it for 75 minutes first, until there was finally enough room to pour in the rest and do the actual 60 minute boil.
+
+*2023-02-05*:
+- final gravity 1.011, ABV 6.0%
+- tasted sample, nice flavor!
 
 {% include other_brews.markdown %}
