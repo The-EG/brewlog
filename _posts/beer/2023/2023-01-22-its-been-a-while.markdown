@@ -27,6 +27,38 @@ images:
  - src: /assets/itsbeenawhile/bottles2.png
    desc: bottled!
 
+ferm_history:
+  - date: 2023-01-22 17:40:00
+    temp: 69.0
+  - date: 2023-01-23 07:00:00
+    temp: 66.0
+  - date: 2023-01-24 17:10:00
+    temp: 67.0
+  - date: 2023-01-25 15:00:00
+    temp: 68.8
+  - date: 2023-01-26 17:00:00
+    temp: 66.8
+  - date: 2023-01-27 17:00:00
+    temp: 67.3
+  - date: 2023-01-28 15:20:00
+    temp: 67.3
+  - date: 2023-01-29 16:00:00
+    temp: 67.0
+  - date: 2023-01-30 15:30:00
+    temp: 67.2
+  - date: 2023-01-31 17:00:00
+    temp: 67.2
+  - date: 2023-02-01 17:00:00
+    temp: 67.1
+  - date: 2023-02-02 17:15:00
+    temp: 67.5
+  - date: 2023-02-03 16:30:00
+    temp: 67.3
+  - date: 2023-02-04 17:00:00
+    temp: 67.2
+  - date: 2023-02-05 09:00:00
+    temp: 66.0
+
 recipe:
   type: All Grain
   style: 19A - American Amber Ale
@@ -94,5 +126,7 @@ Since the 4 gallon kettle was already full I had to boil it for 75 minutes first
 *2023-02-05*:
 - final gravity 1.011, ABV 6.0%
 - tasted sample, nice flavor!
+
+{% include ferm-temp-chart.html %}
 
 {% include other_brews.markdown %}
