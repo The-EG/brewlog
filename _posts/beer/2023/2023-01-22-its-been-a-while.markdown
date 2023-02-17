@@ -26,6 +26,8 @@ images:
    desc: cleaned and sanitized bottles
  - src: /assets/itsbeenawhile/bottles2.png
    desc: bottled!
+ - src: /assets/itsbeenawhile/finished.png
+   desc: finished!
 
 ferm_history:
   - date: 2023-01-22 17:40:00
