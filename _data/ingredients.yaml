@@ -1,8 +1,8 @@
 fermentables:
-- amount: 73.00796430199999
+- amount: 73.007964302
   amount_str: 160 lbs 15.28 oz
   name: Pale (US)
-- amount: 30.186573960000008
+- amount: 30.18657396
   amount_str: 66 lbs 8.80 oz
   name: 2-Row (US)
 - amount: 16.588015730000002
@@ -17,19 +17,19 @@ fermentables:
 - amount: 5.61320592
   amount_str: 12 lbs 6.00 oz
   name: Pale (Belgian)
-- amount: 5.01786568
+- amount: 5.017865679999999
   amount_str: 11 lbs 1.00 oz
   name: Munich
 - amount: 3.96893344
   amount_str: 8 lbs 12.00 oz
   name: 2 Row
-- amount: 3.6276050040000003
+- amount: 3.627605004
   amount_str: 7 lbs 15.96 oz
   name: Crystal 40L
 - amount: 2.5514571999999998
   amount_str: 5 lbs 10.00 oz
   name: Rye
-- amount: 2.1545636800000003
+- amount: 2.15456368
   amount_str: 4 lbs 12.00 oz
   name: Chocolate
 - amount: 1.98446672
@@ -44,13 +44,13 @@ fermentables:
 - amount: 1.36077712
   amount_str: 3.00 lbs
   name: Caramunich
-- amount: 1.2757286
+- amount: 1.2757285999999999
   amount_str: 2 lbs 13.00 oz
   name: Crystal 60L
 - amount: 1.01491292
   amount_str: 2 lbs 3.80 oz
   name: Flaked Barley
-- amount: 0.9922332800000001
+- amount: 0.99223328
   amount_str: 2 lbs 3.00 oz
   name: Crystal 20L
 - amount: 0.96388384
@@ -70,17 +70,17 @@ fermentables:
   name: Victory
 - amount: 0.51029136
   amount_str: 1 lbs 2.00 oz
-  name: Black Barley
+  name: Flaked Oats
 - amount: 0.51029136
   amount_str: 1 lbs 2.00 oz
-  name: Flaked Oats
+  name: Black Barley
 - amount: 0.4252428
   amount_str: 15.00 oz
   name: Brown
 - amount: 0.41106803999999997
   amount_str: 14.50 oz
   name: Crystal 120L
-- amount: 0.39689327999999996
+- amount: 0.39689328
   amount_str: 14.00 oz
   name: Black
 - amount: 0.25514568
@@ -94,13 +94,13 @@ fermentables:
   name: Carafa II
 - amount: 0.1417476
   amount_str: 5.00 oz
-  name: Munich 20L
+  name: Caramunich 80
 - amount: 0.1417476
   amount_str: 5.00 oz
   name: Chocolate (Pale)
 - amount: 0.1417476
   amount_str: 5.00 oz
-  name: Caramunich 80
+  name: Munich 20L
 - amount: 0.11339808
   amount_str: 4.00 oz
   name: Blackprinz
@@ -117,7 +117,7 @@ fermentables:
   amount_str: 1.25 oz
   name: Acid Malt
 hops:
-- amount: 2.6365055999999996
+- amount: 2.6365056
   amount_str: 5 lbs 13.00 oz
   name: Sugar, Table
 - amount: 2.04116576
@@ -126,8 +126,8 @@ hops:
 - amount: 1.0914565999999999
   amount_str: 2 lbs 6.50 oz
   name: Brown Sugar, Light
-- amount: 0.5654311763999998
-  amount_str: 1 lbs 3.94 oz
+- amount: 0.5654311764
+  amount_str: 1 lbs 3.95 oz
   name: Willamette
 - amount: 0.45359232
   amount_str: 16.00 oz
@@ -135,10 +135,10 @@ hops:
 - amount: 0.34019424
   amount_str: 12.00 oz
   name: Molasses
-- amount: 0.3087262728
+- amount: 0.30872627280000003
   amount_str: 10.89 oz
   name: East Kent Goldings
-- amount: 0.30815928239999996
+- amount: 0.3081592824
   amount_str: 10.87 oz
   name: Citra
 - amount: 0.238135968
@@ -150,10 +150,10 @@ hops:
 - amount: 0.216873828
   amount_str: 7.65 oz
   name: Hallertau
-- amount: 0.2095029528
+- amount: 0.20950295280000003
   amount_str: 7.39 oz
   name: Sorachi Ace
-- amount: 0.1783184808
+- amount: 0.17831848079999998
   amount_str: 6.29 oz
   name: Cascade
 - amount: 0.17009712
@@ -171,7 +171,7 @@ hops:
 - amount: 0.0504621456
   amount_str: 1.78 oz
   name: Centennial
-- amount: 0.0493281648
+- amount: 0.049328164800000004
   amount_str: 1.74 oz
   name: Simcoe
 - amount: 0.0408233088
@@ -194,19 +194,19 @@ hops:
   name: Columbus
 - amount: 0.01417476
   amount_str: 0.50 oz
-  name: Target
+  name: Corriander Seed
 - amount: 0.01417476
   amount_str: 0.50 oz
-  name: Corriander Seed
+  name: Target
 - amount: 0.008504856
   amount_str: 0.30 oz
   name: Saaz
 - amount: 0.00708738
   amount_str: 0.25 oz
-  name: Goldings
+  name: Salt
 - amount: 0.00708738
   amount_str: 0.25 oz
-  name: Salt
+  name: Goldings
 - amount: 0.005669904
   amount_str: 0.20 oz
   name: Perle
