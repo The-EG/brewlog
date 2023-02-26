@@ -38,6 +38,9 @@ fermentables:
 - amount: 1.9844665599999998
   amount_str: 4 lbs 6.00 oz
   name: Roasted Barley
+- amount: 1.537678236
+  amount_str: 3 lbs 6.24 oz
+  name: White Wheat
 - amount: 1.5166993199999999
   amount_str: 3 lbs 5.50 oz
   name: Crystal 80L
@@ -59,6 +62,9 @@ fermentables:
 - amount: 0.9071848
   amount_str: 2.00 lbs
   name: Crystal 45L
+- amount: 0.821002244
+  amount_str: 1 lbs 12.96 oz
+  name: Pilsen (GE)
 - amount: 0.6803886
   amount_str: 1 lbs 8.00 oz
   name: Rahr Pale - smoked with oak ~1.5 hrs
@@ -86,6 +92,9 @@ fermentables:
 - amount: 0.25514568
   amount_str: 9.00 oz
   name: Munich II
+- amount: 0.22679618
+  amount_str: 8.00 oz
+  name: Rice Hulls
 - amount: 0.19844664
   amount_str: 7.00 oz
   name: Crystal 10L
@@ -104,9 +113,6 @@ fermentables:
 - amount: 0.11339808
   amount_str: 4.00 oz
   name: Blackprinz
-- amount: 0.11339808
-  amount_str: 4.00 oz
-  name: Rice Hulls
 - amount: 0.093553416
   amount_str: 3.30 oz
   name: Amber
@@ -177,6 +183,9 @@ hops:
 - amount: 0.0408233088
   amount_str: 1.44 oz
   name: Kent Goldings
+- amount: 0.0324602004
+  amount_str: 1.15 oz
+  name: Liberty
 - amount: 0.02834952
   amount_str: 1.00 oz
   name: Horizon
@@ -186,9 +195,6 @@ hops:
 - amount: 0.023388354
   amount_str: 0.83 oz
   name: Amarillo
-- amount: 0.0182854404
-  amount_str: 0.64 oz
-  name: Liberty
 - amount: 0.0181436928
   amount_str: 0.64 oz
   name: Columbus
