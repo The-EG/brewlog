@@ -19,6 +19,8 @@ images:
 ferm_history:
   - date: 2023-02-26 16:30:00
     temp: 71.8
+  - date: 2023-02-27 15:30:00
+    temp: 71.5
 
 recipe:
   type: All Grain
