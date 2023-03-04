@@ -1,0 +1,138 @@
+{
+ "actualFG": 0.0,
+ "actualOG": 1.049,
+ "actualVolume": 2.6,
+ "boilIngredients": [
+  {
+   "aa": 4.3,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 60,
+   "description": "",
+   "ibus": 8.508462350457426,
+   "inBoil": true,
+   "name": "Liberty",
+   "origin": "",
+   "type": "Hops"
+  },
+  {
+   "amount": 0.5,
+   "amountType": "tbs",
+   "boilMinutes": 10,
+   "description": "",
+   "inBoil": true,
+   "name": "Irish Moss",
+   "type": "Misc"
+  },
+  {
+   "aa": 4.3,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 0,
+   "description": "",
+   "ibus": 1.7016924700914855,
+   "inBoil": true,
+   "name": "Liberty",
+   "origin": "",
+   "type": "Hops"
+  }
+ ],
+ "boilTime": 60,
+ "date": {
+  "day": 26,
+  "month": 2,
+  "year": 2023
+ },
+ "efficiency": 68.0,
+ "equipmentLoss": 0.2,
+ "estimatedABV": 5.554400444030762,
+ "estimatedColor": 4.001331478537357,
+ "estimatedFG": 1.0106,
+ "estimatedIBUs": 10.210154820548912,
+ "estimatedOG": 1.053,
+ "evaporationRate": 0.5,
+ "fermentIngredients": [
+  {
+   "amount": 1.0,
+   "amountType": "package",
+   "attenuation": 80.0,
+   "description": "",
+   "fermentDays": 0,
+   "idCode": "Munich Classic",
+   "inFerment": true,
+   "manufacturer": "Lallemand",
+   "name": "LalBrew Munich Classic",
+   "packageType": "dry",
+   "type": "Yeast"
+  }
+ ],
+ "fermentables": [
+  {
+   "amount": 3.3943382352941107,
+   "amountType": "lbs",
+   "color": 2,
+   "description": "",
+   "extractPotential": 1.04,
+   "name": "White Wheat",
+   "origin": "",
+   "percentOfTotalGravity": 67.0,
+   "type": "Fermentable"
+  },
+  {
+   "amount": 1.8073926868044532,
+   "amountType": "lbs",
+   "color": 2,
+   "description": "",
+   "extractPotential": 1.037,
+   "name": "Pilsen (GE)",
+   "origin": "Germany",
+   "percentOfTotalGravity": 33.0,
+   "type": "Fermentable"
+  },
+  {
+   "amount": 0.25,
+   "amountType": "lbs",
+   "color": 0,
+   "description": "",
+   "extractPotential": 0.0,
+   "name": "Rice Hulls",
+   "origin": "",
+   "percentOfTotalGravity": 0.0,
+   "type": "Fermentable"
+  }
+ ],
+ "fermentationSteps": [
+  {
+   "name": "Primary",
+   "targetTemp": 70.0,
+   "timeDays": 7
+  },
+  {
+   "name": "Secondary",
+   "targetTemp": 70.0,
+   "timeDays": 7
+  }
+ ],
+ "grainTemp": 70.0,
+ "mashSteps": [
+  {
+   "amount": 2.0567893933371857,
+   "name": "Single Step",
+   "strikeTemp": 164.0,
+   "targetTemp": 153.0,
+   "timeMinutes": 60
+  },
+  {
+   "amount": 2.4957599351165505,
+   "name": "Mash Out",
+   "strikeTemp": 182.0,
+   "targetTemp": 168.0,
+   "timeMinutes": 10
+  }
+ ],
+ "name": "We'll Wheat Again",
+ "notes": " - Got 1 qt extra from sparge, boiled 90 mins instead of 60.\n - May have been from leak in mash tun.\n\n - ~2.6 gallons into fermenter.\n - Oxygenated wort for ~30-40 seconds.\n - Pitched 1 pkg of yeast @ ~72F (2022-02-26 16:05)\n - Visible signs of fermentation by 2022-02-27 07:00",
+ "style": "10A - Weissbier",
+ "targetOG": 1.053,
+ "targetVolume": 2.6
+}

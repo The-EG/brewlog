@@ -48,7 +48,14 @@ layout: default
         {{ content }}
       </div>
 
-      {%- if page.recipe and page.brew_type == "beer" -%}{%- include beer-recipe.html -%}{%- endif -%}
+      {% assign recipeDate = page.date | date: "%Y_%m_%d" %}
+      {% assign recipeName = page.title | replace: "'", "_" | replace: " ", "_" | replace: "!", "_" | replace: "#", "_" %}
+      {% assign recipeId = recipeDate | append: "_" | append: recipeName %}
+      {% assign recipe = site.data.recipes.beer[recipeId] %}
+      {%- if recipe -%}
+      {%- include new-beer-recipe.html %}
+      {% else %}{%- if page.recipe and page.brew_type == "beer" -%}{%- include beer-recipe.html -%}{%- endif -%}
+      {% endif %}
     </div>
   </div>
 </div>

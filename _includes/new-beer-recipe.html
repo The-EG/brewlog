@@ -1,0 +1,121 @@
+<div class="card mb-3 col-xl-8 mx-auto">
+    <div class="card-header">
+        <h2 class="card-title">Recipe: {{ recipe.name }}</h2>
+        <h5 class="card-subtitle text-muted">{{ recipe.style %}}</h5>
+    </div>
+    <div class="card-body bg-body-tertiary">
+        <table class="card-text table table-sm">
+            <tbody>
+                <tr>
+                    <th>Target Volume</th><td>{{ recipe.targetVolume }}</td>
+                    <th>Boil Time</th><td>{{ recipe.boilTime }}</td>
+                </tr>
+                <tr>
+                    <th>Target Efficiency</th><td>{{ recipe.efficiency }}</td>
+                </tr>
+                <tr>
+                    <th>Est. Original Gravity</th><td>{{ recipe.estimatedOG | round: 3 }}</td>
+                    <th>Est. Final Gravity</th><td>{{ recipe.estimatedFG | round: 3}}</td>
+                </tr>
+                <tr>
+                    <th>Est. Color</th><td>{{ recipe.estimatedColor | round: 1 }}</td>
+                    <th>Est. IBU</th><td>{{ recipe.estimatedIBUs | round: 0 }}</td>
+                </tr>
+                <tr>
+                    <th>Est. ABV</th><td>{{ recipe.estimatedABV | round: 1}}%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4 class="card-title">Fermentables</h4>
+        <table class="card-text table table-sm">
+            <thead>
+                <th>Name</th><th>Amount</th><th>%</th>
+            </thead>
+            <tbody>
+                {%- for fermentable in recipe.fermentables -%}
+                <tr>
+                    <td> {{fermentable.name}}</td><td>{{fermentable.amount | round: 2}} {{fermentable.amountType}}</td><td>{{fermentable.percentOfTotalGravity | round: 1}}%</td>
+                </tr>
+                {%- endfor -%}
+            </tbody>
+        </table>
+
+        <h4 class="card-title">Mash</h4>
+        <table class="card-text table table-sm">
+            <thead>
+                <th>Step</th><th>Time</th><th>Target Temp.</th><th>Strike Temp.</th><th>Amount</th>
+            </thead>
+            <tbody>
+                {% for step in recipe.mashSteps -%}
+                <tr>
+                    <td>{{ step.name }}</td><td>{{ step.timeMinutes }} mins</td><td>{{ step.targetTemp | round: 0 }}&deg;F</td><td>{{ step.strikeTemp | round: 0 }}&deg;F</td><td>{{ step.amount | round: 2}} gal.</td>
+                </tr>
+                {% endfor -%}
+            </tbody>
+        </table>
+
+        <h4 class="card-title">Boil</h4>
+        <table class="card-text table table-sm">
+            <thead>
+                <th>Time</th><th>Name</th><th>Alpha %</th><th>Amount</th><th>IBUs</th>
+            </thead>
+            <tbody>
+                {% for bi in recipe.boilIngredients -%}
+                <tr>
+                    <td>{{ bi.boilMinutes }} mins</td>
+                    <td>{{ bi.name }}</td>
+                    <td>{% if bi.aa %}{{bi.aa}}%{%else%}-{%endif%}</td>
+                    <td>{{ bi.amount | round: 2 }} {{ bi.amountType }}</td>
+                    <td>{% if bi.ibus %}{{bi.ibus | round: 1}}{%else%}-{%endif%}</td>
+                </tr>
+                {% endfor -%}
+            </tbody>
+        </table>
+
+        <h4 class="card-title">Fermentation</h4>
+
+        <h6 class="card-title">Steps</h6>
+        <table class="card-text table table-sm">
+            <tbody>
+                <tr><th>Name</th><th>Time</th><th>Temp</th></tr>
+                {% for step in recipe.fermentationSteps %}
+                    <tr>
+                        <td>{{step.name}}</td>
+                        <td>{{step.timeDays}} days</td>
+                        <td>{{step.targetTemp | round: 0}}&deg;F</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h6 class="card-title">Ingredients</h6>
+        <table class="card-text table table-sm">
+            <tbody>
+                <tr><th>Name</th><th>Amount</th><th>Time</th></tr>
+                {% for fi in recipe.fermentIngredients %}
+                    <tr>
+                        <td>{{fi.name}}</td>
+                        <td>{{fi.amount}} {{fi.amountType}}</td>
+                        <td>{% if fi.type != "Yeast" %}{{fi.fermentDays}} days{% else %}-{% endif %}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h4 class="card-title">Results</h4>
+        <table class="card-text table table-sm">
+            <tbody>
+                <tr><th>Actual Volume</th><td>{{ recipe.actualVolume }}</td></tr>
+                <tr><th>Original Gravity</th><td>{{ recipe.actualOG }}</td></tr>
+                <tr><th>Final Gravity</th><td>{{ recipe.actualFG }}</td></tr>
+                <tr><th>ABV %</th><td>{{ recipe.actualABV }}</td></tr>
+            </tbody>
+        </table>
+
+        {%- if recipe.notes -%}
+        <h4 class="card-title">Notes</h4>
+        <p class="card-text">{{ recipe.notes | markdownify }}</p>
+        {%- endif -%}
+    </div>
+</div>
