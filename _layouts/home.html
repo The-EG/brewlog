@@ -15,6 +15,10 @@ layout: default
       
       <div class="row">
         {%- for post in posts -%}
+        {% assign recipeDate = post.date | date: "%Y_%m_%d" %}
+        {% assign recipeName = post.title | replace: "'", "_" | replace: " ", "_" | replace: "!", "_" | replace: "#", "_" %}
+        {% assign recipeId = recipeDate | append: "_" | append: recipeName %}
+        {% assign recipe = site.data.recipes.beer[recipeId] %}
         <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-10 col-12">
           <div class="card mb-1 mt-1 text-start shadow-sm"> <!--style="min-width: 18rem;">-->
             <a href="{{ post.url | relative_url }}">
@@ -32,9 +36,14 @@ layout: default
               <h6 class="card-subtitle text-muted">{{ post.date | date: date_format }}</h6>
             </div>
             <ul class="list-group list-group-flush">
-              {%- if post.recipe.style %}<li class="list-group-item">{{ post.recipe.style }}</li>{% endif %}
-              {%- if post.recipe.size %}<li class="list-group-item">{{ post.recipe.size }}</li>{% endif %}
-              {%- if post.size %}<li class="list-group-item">{{ post.size }}</li>{% endif %}
+              {%- if recipe %}
+                <li class="list-group-item">{{ recipe.style }}</li>
+                <li class="list-group-item">{{ recipe.targetVolume }} gallon</li>
+              {%- else -%}
+                {%- if post.recipe.style -%}<li class="list-group-item">{{ post.recipe.style }}</li>{%- endif %}
+                {%- if post.recipe.size %}<li class="list-group-item">{{ post.recipe.size }}</li>{% endif %}
+                {%- if post.size %}<li class="list-group-item">{{ post.size }}</li>{% endif %}
+              {%- endif -%}
             </ul>
             <div class="card-footer">
               <ul class="list-inline">
