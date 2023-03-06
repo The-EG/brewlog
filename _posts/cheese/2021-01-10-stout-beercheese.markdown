@@ -29,7 +29,7 @@ Steps
 10. Let sit 30 mins, stir every 10 mins
 11. Pour curds into cheese cloth lined collandar to drain
 12. Let sit 30 mins
-13. Transfer to clean pot, add about 12oz of [Stout beer]({% post_url /beer/2020-01-12-the-czars-revenge %})
+13. Transfer to clean pot, add about 12oz of [Stout beer]({% post_url /beer/2020/2020-01-12-the-czars-revenge %})
 14. Stir and let sit for 30 mins
 15. Add 2tsp of salt and stir
 16. Add to cheese cloth lined mold and press for 60 mins
