@@ -1,0 +1,196 @@
+{
+ "actualABV": 139.515,
+ "actualFG": 0.0,
+ "actualOG": 1.065,
+ "actualVolume": 2.6,
+ "boilIngredients": [
+  {
+   "aa": 14.2,
+   "amount": 0.45,
+   "amountType": "oz",
+   "boilMinutes": 60,
+   "description": "",
+   "ibus": 47.377414031963305,
+   "inBoil": true,
+   "name": "Warrior",
+   "origin": "",
+   "type": "Hops"
+  },
+  {
+   "aa": 9.3,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 30,
+   "description": "",
+   "ibus": 13.790608779256926,
+   "inBoil": true,
+   "name": "Amarillo",
+   "origin": "US",
+   "type": "Hops"
+  },
+  {
+   "aa": 12.6,
+   "amount": 0.16,
+   "amountType": "oz",
+   "boilMinutes": 15,
+   "description": "",
+   "ibus": 7.473620241661817,
+   "inBoil": true,
+   "name": "Citra",
+   "origin": "US",
+   "type": "Hops"
+  },
+  {
+   "amount": 0.5,
+   "amountType": "tbs",
+   "boilMinutes": 10,
+   "description": "",
+   "inBoil": true,
+   "name": "Irish Moss",
+   "type": "Misc"
+  },
+  {
+   "aa": 12.6,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 0,
+   "description": "",
+   "ibus": 4.671012651038636,
+   "inBoil": true,
+   "name": "Citra",
+   "origin": "US",
+   "type": "Hops"
+  },
+  {
+   "aa": 9.3,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 0,
+   "description": "",
+   "ibus": 3.4476521948142316,
+   "inBoil": true,
+   "name": "Amarillo",
+   "origin": "US",
+   "type": "Hops"
+  },
+  {
+   "aa": 13.9,
+   "amount": 0.25,
+   "amountType": "oz",
+   "boilMinutes": 0,
+   "description": "",
+   "ibus": 5.1529425277330985,
+   "inBoil": true,
+   "name": "Simcoe",
+   "origin": "",
+   "type": "Hops"
+  }
+ ],
+ "boilTime": 60,
+ "date": {
+  "day": 14,
+  "month": 5,
+  "year": 2023
+ },
+ "efficiency": 68.0,
+ "equipmentLoss": 0.2,
+ "estimatedABV": 6.990643692307696,
+ "estimatedColor": 43.29411764705893,
+ "estimatedFG": 1.013340923076923,
+ "estimatedIBUs": 81.91325042646801,
+ "estimatedOG": 1.0667046153846154,
+ "evaporationRate": 0.5,
+ "fermentIngredients": [
+  {
+   "aa": 12.6,
+   "amount": 2.0,
+   "amountType": "oz",
+   "description": "",
+   "fermentDays": 7,
+   "inFerment": true,
+   "name": "Citra",
+   "origin": "US",
+   "type": "Hops"
+  },
+  {
+   "amount": 0.0,
+   "amountType": "package",
+   "attenuation": 80.0,
+   "description": "",
+   "fermentDays": 0,
+   "idCode": "US-05",
+   "inFerment": true,
+   "manufacturer": "Fermentis",
+   "name": "SafAle(tm)",
+   "packageType": "dry",
+   "type": "Yeast"
+  }
+ ],
+ "fermentables": [
+  {
+   "amount": 6.0,
+   "amountType": "lbs",
+   "color": 2,
+   "description": "",
+   "extractPotential": 1.036,
+   "name": "2-Row (US)",
+   "origin": "United States",
+   "percentOfTotalGravity": 85.59440559440557,
+   "type": "Fermentable",
+   "waterAbsorbtion": 0.125
+  },
+  {
+   "amount": 1.0,
+   "amountType": "lbs",
+   "color": 40,
+   "description": "",
+   "extractPotential": 1.034,
+   "name": "Crystal 40L",
+   "origin": "",
+   "percentOfTotalGravity": 13.47319347319347,
+   "type": "Fermentable",
+   "waterAbsorbtion": 0.125
+  },
+  {
+   "amount": 0.2018823529411774,
+   "amountType": "lbs",
+   "color": 300,
+   "description": "",
+   "extractPotential": 1.025,
+   "name": "Roasted Barley",
+   "origin": "US",
+   "percentOfTotalGravity": 2.0,
+   "type": "Fermentable",
+   "waterAbsorbtion": 0.125
+  }
+ ],
+ "fermentationSteps": [
+  {
+   "name": "Primary",
+   "targetTemp": 68.0,
+   "timeDays": 10
+  }
+ ],
+ "grainTemp": 70.0,
+ "mashSteps": [
+  {
+   "amount": 2.4606431372549022,
+   "name": "Single Step Infusion",
+   "strikeTemp": 164.0,
+   "targetTemp": 152.0,
+   "timeMinutes": 60
+  },
+  {
+   "amount": 2.507322004357299,
+   "name": "Mash Out/Batch Sparge",
+   "strikeTemp": 186.0,
+   "targetTemp": 168.0,
+   "timeMinutes": 10
+  }
+ ],
+ "name": "Taylor's Black IPA",
+ "notes": " - Overshot mashout temp\n - drained ~4 gallons from mash (0.5 gal extra). determined to be issue with grain absorbtion calc - fixed\n - boiled 60 minutes extra, 120 minutes total\n - pitched yeast at 2023-05-14 16:30 ~66 F",
+ "style": "21B - Speciality IPA: Black IPA",
+ "targetOG": 1.066,
+ "targetVolume": 2.6
+}
