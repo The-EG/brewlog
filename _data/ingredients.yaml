@@ -2,7 +2,7 @@ fermentables:
 - amount: 73.007964302
   amount_str: 160 lbs 15.28 oz
   name: Pale (US)
-- amount: 30.18657396
+- amount: 30.186573959999997
   amount_str: 66 lbs 8.80 oz
   name: 2-Row (US)
 - amount: 16.588015730000002
@@ -17,13 +17,13 @@ fermentables:
 - amount: 5.61320592
   amount_str: 12 lbs 6.00 oz
   name: Pale (Belgian)
-- amount: 5.017865679999999
+- amount: 5.01786568
   amount_str: 11 lbs 1.00 oz
   name: Munich
 - amount: 3.96893344
   amount_str: 8 lbs 12.00 oz
   name: 2 Row
-- amount: 3.627605004
+- amount: 3.6276050040000003
   amount_str: 7 lbs 15.96 oz
   name: Crystal 40L
 - amount: 2.5514571999999998
@@ -44,7 +44,7 @@ fermentables:
 - amount: 1.36077712
   amount_str: 3.00 lbs
   name: Caramunich
-- amount: 1.2757285999999999
+- amount: 1.2757286
   amount_str: 2 lbs 13.00 oz
   name: Crystal 60L
 - amount: 1.01491292
@@ -103,10 +103,10 @@ fermentables:
   name: Munich 20L
 - amount: 0.11339808
   amount_str: 4.00 oz
-  name: Blackprinz
+  name: Rice Hulls
 - amount: 0.11339808
   amount_str: 4.00 oz
-  name: Rice Hulls
+  name: Blackprinz
 - amount: 0.093553416
   amount_str: 3.30 oz
   name: Amber
@@ -117,7 +117,7 @@ fermentables:
   amount_str: 1.25 oz
   name: Acid Malt
 hops:
-- amount: 2.6365056
+- amount: 2.6365055999999996
   amount_str: 5 lbs 13.00 oz
   name: Sugar, Table
 - amount: 2.04116576
@@ -126,7 +126,7 @@ hops:
 - amount: 1.0914565999999999
   amount_str: 2 lbs 6.50 oz
   name: Brown Sugar, Light
-- amount: 0.5654311764
+- amount: 0.5654311764000001
   amount_str: 1 lbs 3.95 oz
   name: Willamette
 - amount: 0.45359232
@@ -150,7 +150,7 @@ hops:
 - amount: 0.216873828
   amount_str: 7.65 oz
   name: Hallertau
-- amount: 0.20950295280000003
+- amount: 0.2095029528
   amount_str: 7.39 oz
   name: Sorachi Ace
 - amount: 0.17831848079999998
@@ -165,7 +165,7 @@ hops:
 - amount: 0.0708738
   amount_str: 2.50 oz
   name: Kent Golding
-- amount: 0.06662137200000001
+- amount: 0.066621372
   amount_str: 2.35 oz
   name: Fuggles
 - amount: 0.0504621456
@@ -179,10 +179,10 @@ hops:
   name: Kent Goldings
 - amount: 0.02834952
   amount_str: 1.00 oz
-  name: Horizon
+  name: Tettnang
 - amount: 0.02834952
   amount_str: 1.00 oz
-  name: Tettnang
+  name: Horizon
 - amount: 0.023388354
   amount_str: 0.83 oz
   name: Amarillo
