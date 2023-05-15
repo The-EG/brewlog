@@ -12,6 +12,7 @@
                 </tr>
                 <tr>
                     <th>Target Efficiency</th><td>{{ recipe.efficiency }}</td>
+                    <th>Target Original Gravity</th><td>{{ recipe.targetOG }}</td>
                 </tr>
                 <tr>
                     <th>Est. Original Gravity</th><td>{{ recipe.estimatedOG | round: 3 }}</td>
@@ -92,10 +93,11 @@
         <h6 class="card-title">Ingredients</h6>
         <table class="card-text table table-sm">
             <tbody>
-                <tr><th>Name</th><th>Amount</th><th>Time</th></tr>
+                <tr><th>Type</th><th>Name</th><th>Amount</th><th>Time</th></tr>
                 {% for fi in recipe.fermentIngredients %}
                     <tr>
-                        <td>{{fi.name}}</td>
+                        <td>{{fi.type}}</td>
+                        <td>{% if fi.type == "Yeast" %}{{fi.idCode }} - {{fi.name}}{% else %}{{fi.name}}{% endif %}</td>
                         <td>{{fi.amount}} {{fi.amountType}}</td>
                         <td>{% if fi.type != "Yeast" %}{{fi.fermentDays}} days{% else %}-{% endif %}</td>
                     </tr>
@@ -108,8 +110,8 @@
             <tbody>
                 <tr><th>Actual Volume</th><td>{{ recipe.actualVolume }} gallons</td></tr>
                 <tr><th>Original Gravity</th><td>{{ recipe.actualOG }}</td></tr>
-                <tr><th>Final Gravity</th><td>{{ recipe.actualFG }}</td></tr>
-                <tr><th>ABV %</th><td>{{ recipe.actualABV | round: 1}}%</td></tr>
+                <tr><th>Final Gravity</th><td>{% if recipe.actualFG > 0 %}{{ recipe.actualFG }}{% else %}-{% endif %}</td></tr>
+                <tr><th>ABV %</th><td>{% if recipe.actualFG > 0 %}{{ recipe.actualABV | round: 1}}% {% else %}-{% endif %}</td></tr>
             </tbody>
         </table>
 
