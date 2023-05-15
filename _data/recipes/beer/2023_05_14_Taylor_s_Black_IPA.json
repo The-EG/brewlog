@@ -113,7 +113,7 @@
    "type": "Hops"
   },
   {
-   "amount": 0.0,
+   "amount": 1.0,
    "amountType": "package",
    "attenuation": 80.0,
    "description": "",
@@ -169,6 +169,11 @@
    "name": "Primary",
    "targetTemp": 68.0,
    "timeDays": 10
+  },
+  {
+   "name": "Dry Hop",
+   "targetTemp": 68.0,
+   "timeDays": 7
   }
  ],
  "grainTemp": 70.0,
