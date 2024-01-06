@@ -22,7 +22,7 @@ jobs:
               run: |
                 pelican --settings publishconf.py --extra-settings='"${{ steps.pages.outputs.base_url }}"' --output output
             - name: Upload Artifact
-              uses: action/upload-pages-artifact@v2
+              uses: actions/upload-pages-artifact@v2
               with:
                 path: output
     deploy:
