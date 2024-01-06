@@ -10,84 +10,39 @@ My first, and so far only, successful lacto sour. This recipe came from a Facebo
 
 ----
 
-=============== =====================
-**Name**        Gose #1
-**Style**       Gose
-**Est. OG**     1.056
-**Est. FG**     1.014
-**Est. ABV**    5.7%
-**Volume**      2.75 gallons
-**Efficiency**  \ 
-**Boil Length** 60 minutes
-**Est. IBUs**   7
-**Est. Color**  3.6
-=============== =====================
+.. brew::
+    :name: Gose #1
+    :style: Gose
+    :og: 1.056
+    :fg: 1.014
+    :abv: 5.7%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 7
+    :color: 3.6
+    :act_og: 1.044
+    :act_fg: 1.013
+    :act_abv: 4.1%
+    :packaged: 2017-07-18
+    :carbonation: 
+
+    .. fermentable::  , Wheat (GE), , 3.25 lbs
+    .. fermentable::  , Pilsen (GE), , 2.125 oz
+
+    .. mashstep:: 1, Infusion, 90, 151F, 161F, 7 qts
+
+    .. boil_item:: 60, Perle, 0.2 oz, , 
+    .. boil_item:: 15, Irish Moss, 0.5 tsp, -, -
+    .. boil_item:: 10, Corriander Seed, 0.5 oz, -, -
+    .. boil_item:: 10, Salt, 0.25 oz, -, -
+
+    .. ferm_step:: Primary, 10 Days, 68F
+
+    .. ferm_ingredient:: WY3068, Primary, 1 pkg
 
 
-Fermentables
-------------
-
-===== ============== === ==========
- %    Name           SRM Amount
-===== ============== === ==========
-\     Wheat (GE)     \   3.25 lbs
-\     Pilsen (GE)    \   2.125 oz
-===== ============== === ==========
-
-Mash
 ----
-
-==== ======== ==== ====== ====== ===========
-Step Type     Time Target Strike Water Amt
-==== ======== ==== ====== ====== ===========
-1    Infusion 90   151F   161F   7 qts
-==== ======== ==== ====== ====== ===========
-
-Boil
-----
-
-==== ================= ======== ==== ====
-Time Name              Amount   AA%  IBUs
-==== ================= ======== ==== ====
-60   Perle             0.2 oz   \    \ 
-15   Irish Moss        0.5 tsp  \-   \-
-10   Corriander Seed   0.5 oz   \-   \-
-10   Salt              0.25 oz  \-   \-
-==== ================= ======== ==== ====
-
-Fermentation
-------------
-
-.. table:: Steps
-    :class: caption-top
-
-    ======= ======= ====
-    Step    Time    Temp
-    ======= ======= ====
-    Primary 10 Days 68°F
-    ======= ======= ====
-
-.. table:: Ingredients
-    :class: caption-top
-
-    ========== ======= ======
-    Ingredient Step    Amount
-    ========== ======= ======
-    WY3068     Primary 1 pkg
-    ========== ======= ======
-
-Brew Day
---------
-
-========================= ===========
-**Date**                  2017-06-18
-**Volume into Fermenter** 2.5 gallons
-**Actual OG**             1.044
-**Actual FG**             1.013
-**Actual ABV**            4.1%
-**Packaged on**           2017-07-08
-**Carbonation**           3.7 oz sugar
-========================= ===========
 
 Notes
 ~~~~~

@@ -10,88 +10,40 @@ After visiting `Wild Heaven <https://wildheavenbeer.com>`_ and trying Eschaton I
 
 ----
 
-=============== =====================
-**Name**        Quad #1
-**Style**       Belgian Dark Strong Ale
-**Est. OG**     1.094
-**Est. FG**     1.015
-**Est. ABV**    10.5%
-**Volume**      2.75 gallons
-**Efficiency**  72%
-**Boil Length** 60 minutes
-**Est. IBUs**   25.8
-**Est. Color**  19.4
-=============== =====================
+.. brew::
+    :name: Quad #1
+    :style: Belgian Dark Strong Ale
+    :og: 1.094
+    :fg: 1.015
+    :abv: 10.5%
+    :volume: 2.75 gallons
+    :efficiency: 72%
+    :boil_length: 60 minutes
+    :ibus: 25.8
+    :color: 19.4
+    :act_og: 1.080
+    :act_fg: 1.018
+    :act_abv: 8%
+    :packaged: 2017-08-12
+    :carbonation: 
 
+    .. fermentable:: 84.6%, Pale (BE), , 8 lbs 12 oz
+    .. fermentable:: 5.1%, Light Brown Sugar, , 8.5 oz
+    .. fermentable:: 5.1%, Crystal 80L, , 8.5 oz
+    .. fermentable:: 5.1%, Crystal 120L, , 8.5 oz
 
-Fermentables
-------------
+    .. mashstep:: 1, Infusion, 60, 150F, 170F, 12.27 qts
+    .. mashstep:: 2, Mash Out, 10, 168F, 211F, 6.87 qts
 
-===== ================= === ==========
- %    Name              SRM Amount
-===== ================= === ==========
-84.6% Pale (BE)         \   8 lbs 12 oz
-5.1%  Light Brown Sugar \   8.5 oz
-5.1%  Crystal 80L       \   8.5 oz
-5.1%  Crystal 120L      \   8.5 oz
-===== ================= === ==========
+    .. boil_item:: 60, Light Brown Sugar, 8.5 oz, -, -
+    .. boil_item:: 60, Warrior, 0.35 oz, 15%, 25.8
+    .. boil_item:: 10, Irish Moss, 0.5 tsp, -, -
 
-Mash
+    .. ferm_step:: Primary, 10 Days, 67F
+
+    .. ferm_ingredient:: WY3787, Primary, 1 pkg
+
 ----
-
-==== ======== ==== ====== ====== ===========
-Step Type     Time Target Strike Water Amt
-==== ======== ==== ====== ====== ===========
-1    Infusion 60   150F   170F   12.27 qts
-2    Mash Out 10   168F   211F   6.87 qts
-==== ======== ==== ====== ====== ===========
-
-fly sparge
-
-Boil
-----
-
-==== ================= ======== ==== ====
-Time Name              Amount   AA%  IBUs
-==== ================= ======== ==== ====
-60   Light Brown Sugar 8.5 oz   \-   \-
-60   Warrior           0.35 oz  15%  25.8
-10   Irish Moss        0.5 tsp  \-   \-
-==== ================= ======== ==== ====
-
-Fermentation
-------------
-
-.. table:: Steps
-    :class: caption-top
-
-    ======= ======= ====
-    Step    Time    Temp
-    ======= ======= ====
-    Primary 10 Days 67°F
-    ======= ======= ====
-
-.. table:: Ingredients
-    :class: caption-top
-
-    ========== ======= ======
-    Ingredient Step    Amount
-    ========== ======= ======
-    WY3787     Primary 1 pkg
-    ========== ======= ======
-
-Brew Day
---------
-
-========================= ===========
-**Date**                  2017-07-22
-**Volume into Fermenter** 2.75 gallons
-**Actual OG**             1.080
-**Actual FG**             1.018
-**Actual ABV**            8%
-**Packaged on**           2017-08-12
-**Carbonation**           \ 
-========================= ===========
 
 Notes
 ~~~~~

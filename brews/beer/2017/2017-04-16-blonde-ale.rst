@@ -6,83 +6,37 @@ Blonde Ale #1
 :type: beer
 :subtitle: Blonde Ale
 
-=============== =====================
-**Name**        Blonde Ale #1
-**Style**       Blonde Ale
-**Est. OG**     1.045
-**Est. FG**     1.011
-**Est. ABV**    4.5%
-**Volume**      2.75 gallons
-**Efficiency**  \ 
-**Boil Length** 60 minutes
-**Est. IBUs**   25
-**Est. Color**  6.1
-=============== =====================
+.. brew::
+    :name: Blonde Ale #1
+    :style: Blonde Ale
+    :og: 1.045
+    :fg: 1.011
+    :abv: 4.5%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 25
+    :color: 6.1
+    :act_og: 1.052
+    :act_fg: 1.004
+    :act_abv: 6.3%
+    :packaged: 2017-05-20
+    :carbonation: 
 
+    .. fermentable::  , Pale (US), , 5 lbs
+    .. fermentable::  , Victory, , 1 oz
 
-Fermentables
-------------
+    .. mashstep:: 1, Infusion, 60, 148F, 159F, 6.5 qts
 
-===== ============== === ==========
- %    Name           SRM Amount
-===== ============== === ==========
-\     Pale (US)      \   5 lbs
-\     Victory        \   1 oz
-===== ============== === ==========
+    .. boil_item:: 60, Willamette, 0.33 oz, ,  
+    .. boil_item:: 20, Centennial, 0.25 oz, , 
+    .. boil_item:: 15, Irish Moss, 0.5 tsp, -, -
 
-Mash
+    .. ferm_step:: Primary, 10 Days, 68F
+
+    .. ferm_ingredient:: WLP007, Primary, 1 pkg
+
 ----
-
-==== ======== ==== ====== ====== ===========
-Step Type     Time Target Strike Water Amt
-==== ======== ==== ====== ====== ===========
-1    Infusion 60   148F   159F   6.5 qts
-==== ======== ==== ====== ====== ===========
-
-Boil
-----
-
-==== ================= ======== ==== ====
-Time Name              Amount   AA%  IBUs
-==== ================= ======== ==== ====
-60   Willamette        0.33 oz  \    \ 
-20   Centennial        0.25 oz  \    \ 
-15   Irish Moss        0.5 tsp  \-   \-
-==== ================= ======== ==== ====
-
-Fermentation
-------------
-
-.. table:: Steps
-    :class: caption-top
-
-    ======= ======= ====
-    Step    Time    Temp
-    ======= ======= ====
-    Primary 10 Days 68°F
-    ======= ======= ====
-
-.. table:: Ingredients
-    :class: caption-top
-
-    ========== ======= ======
-    Ingredient Step    Amount
-    ========== ======= ======
-    WLP007     Primary 1 pkg
-    ========== ======= ======
-
-Brew Day
---------
-
-========================= ===========
-**Date**                  2017-04-16
-**Volume into Fermenter** 2.75 gallons
-**Actual OG**             1.052
-**Actual FG**             1.004
-**Actual ABV**            6.3
-**Packaged on**           2017-05-20
-**Carbonation**           \ 
-========================= ===========
 
 Notes
 ~~~~~
