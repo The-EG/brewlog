@@ -17,10 +17,12 @@ jobs:
               id: pages
               uses: actions/configure-pages@v3
             - name: Install Python Requirements
-              run: pip install -r requirements.txt
+              run: |
+                pip install pelican[markdown]
+                pip install -e rst-html5-reader
             - name: Build Pelican Site
               run: |
-                pelican --settings publishconf.py --extra-settings='"${{ steps.pages.outputs.base_url }}"' --output output
+                pelican --settings publishconf.py --extra-settings SITEURL='"${{ steps.pages.outputs.base_url }}"' --output output
             - name: Upload Artifact
               uses: actions/upload-pages-artifact@v2
               with:
