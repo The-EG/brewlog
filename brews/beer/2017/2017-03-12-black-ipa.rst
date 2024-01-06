@@ -1,0 +1,100 @@
+Black IPA #1
+############
+
+:date: 2017-03-12
+:tags: ipa, black ipa
+:type: beer
+:subtitle: Black IPA
+
+=============== =====================
+**Name**        Black IPA #1
+**Style**       Black IPA
+**Est. OG**     1.066
+**Est. FG**     1.016
+**Est. ABV**    6.8%
+**Volume**      2.75 gallons
+**Efficiency**  \ 
+**Boil Length** 60 minutes
+**Est. IBUs**   23
+**Est. Color**  80
+=============== =====================
+
+
+Fermentables
+------------
+
+===== ============== === ==========
+ %    Name           SRM Amount
+===== ============== === ==========
+\     Pale (US)      \   6 lbs
+\     Crystal 45L    \   1 lb
+\     Roasted Barely \   4 oz
+===== ============== === ==========
+
+Mash
+----
+
+==== ======== ==== ====== ====== ===========
+Step Type     Time Target Strike Water Amt
+==== ======== ==== ====== ====== ===========
+1    Infusion 60   152F   162F   2.25 gallons
+==== ======== ==== ====== ====== ===========
+
+- Add Roasted Barely to mash at 45 minutes
+- Fly Sparge
+
+Boil
+----
+
+==== ================= ======== ==== ====
+Time Name              Amount   AA%  IBUs
+==== ================= ======== ==== ====
+60   Warrior           0.6 oz   \    56.8
+30   Cascade           0.5 oz   \    13.8
+15   Citra             0.25 oz  \    9.4
+15   Irish Moss        0.5 tsp  \-   \-
+0    Citra             0.25 oz  \    \ 
+0    Simcoe            0.25 oz  \    \ 
+0    Cascade           0.25 oz  \    \ 
+==== ================= ======== ==== ====
+
+Fermentation
+------------
+
+.. table:: Steps
+    :class: caption-top
+
+    ======= ======= ====
+    Step    Time    Temp
+    ======= ======= ====
+    Primary 10 Days 68F
+    Dry Hop 7 days  68F
+    ======= ======= ====
+
+.. table:: Ingredients
+    :class: caption-top
+
+    ========== ======= ======
+    Ingredient Step    Amount
+    ========== ======= ======
+    US-05      Primary 1 pkg
+    Citra      Dry Hop 1.5 oz
+    ========== ======= ======
+
+Brew Day
+--------
+
+========================= ===========
+**Date**                  2017-03-12
+**Volume into Fermenter** 2.75 gallons
+**Actual OG**             1.068
+**Actual FG**             1.011
+**Actual ABV**            7.5%
+**Packaged on**           2017-04-15
+**Carbonation**           \ 
+========================= ===========
+
+Notes
+~~~~~
+
+Added roasted barely 45 minutes into mash.

@@ -6,3 +6,7 @@ vendor
 *~
 *.code-workspace
 .vscode
+
+__pycache__/
+.venv
+output/

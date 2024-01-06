@@ -1,0 +1,72 @@
+Apple Ale
+#########
+
+:date: 2020-10-18
+:tags: ale, fruit, apple
+:image: /assets/apples.png
+:type: beer
+:subtitle: Amber and Brown American Beer
+
+.. container:: text-center
+
+    .. image:: /assets/apples.png
+        :height: 400
+
+I was trying to figure out what to brew next and complaining to Suzanne that I wasn't inspired by anything. Nothing sounded good. It was like being hungry but not wanting food.
+
+So, I decided I should do something appropriate for the season, and apples came to mind. Yeah! I've never done anything with apples, so that should be interesting.
+
+After some Googling, I decided I would need a lot of apples...like 9 lbs worth. Half would be cubed (that's the pic above) and steeped at the end of the boil, and half would be shredded and go in during secondary.
+
+I started with a basic brown/amber ale and added some Molasses; I'm going for a 'candied apple' effect, but hopefully not too sweet or overpowering...
+
+*2020-11-17*: Not bad! When I kegged this I was worried the cinnamon was going to overpower everything, but it has mellowed out a bit while carbing. I don't know that it makes me think of apple, but it's definitely a winter-y spiced ale.
+
+.. image:: /brewlog/assets/apple_ale_finish.png
+
+*2020-12-30*: After aging a bit more this is quite nice. It definitely needed a month or so to mellow out.
+
+----
+
+.. brew::
+    :name: Apple Ale
+    :style: Amber and Brown American Beer
+    :og: 1.053
+    :fg: 1.010
+    :abv: 5.6%
+    :volume: 5.25 gallons
+    :efficiency: 72%
+    :boil_length: 60 minutes
+    :ibus: 29.3
+    :color: 16.6
+    :act_og: 1.053
+    :act_fg: 1.004
+    :act_abv: 5.5%
+    :packaged: 2020-11-08
+    :carbonation: Keg - 12 PSI @ 34F
+
+    .. fermentable:: 84.8%, 2-Row (US), 2, 8 lbs 12 oz
+    .. fermentable:: 7.3%, Molasses, , 12 oz
+    .. fermentable:: 6.1%, Crystal 40L, 40, 10 oz
+    .. fermentable:: 1.8%, Chocolate, 450, 3 oz
+
+    .. mashstep:: 1, Infusion, 60, 154F, 164F, 14 qts
+    .. mashstep:: 2, Sprage, 10, 168F, -, 4.65 gallons
+
+    .. boil_item:: 60, Molasses, 12 oz, -, -
+    .. boil_item:: 60, Willamette, 1.5 oz, 4.2%, 23.3
+    .. boil_item:: 15, Irish Moss, 1 tsp, -, -
+    .. boil_item:: 10, East Kent Golding, 1.27 oz, 5%, 5.45
+
+    .. ferm_step:: Primary, 10 Days, 68F
+
+    .. ferm_ingredient:: US-05, Primary, 1 pkg
+
+----
+
+Notes
+~~~~~
+- Steep 4 lbs 7 oz of cubed apples for 30 mins after boil.
+- Actual mash temp 152.4F 
+- Added apples at flameout, steeped for 15 minutes, then began chilling, steeped while chilling, then drained for 10 minutes before removing.
+- Shredded 4.5 lbs apples, added to water with 2 cinnamon sticks, brought to ~180F and then let cool. Racked beer on top for secondary (2020-10-25)

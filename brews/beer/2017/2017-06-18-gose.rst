@@ -1,0 +1,95 @@
+Gose #1
+#######
+
+:date: 2017-06-18
+:tags: sour, gose, lacto
+:type: beer
+:subtitle: Gose
+
+My first, and so far only, successful lacto sour. This recipe came from a Facebook post within the New London Brew Club group.
+
+----
+
+=============== =====================
+**Name**        Gose #1
+**Style**       Gose
+**Est. OG**     1.056
+**Est. FG**     1.014
+**Est. ABV**    5.7%
+**Volume**      2.75 gallons
+**Efficiency**  \ 
+**Boil Length** 60 minutes
+**Est. IBUs**   7
+**Est. Color**  3.6
+=============== =====================
+
+
+Fermentables
+------------
+
+===== ============== === ==========
+ %    Name           SRM Amount
+===== ============== === ==========
+\     Wheat (GE)     \   3.25 lbs
+\     Pilsen (GE)    \   2.125 oz
+===== ============== === ==========
+
+Mash
+----
+
+==== ======== ==== ====== ====== ===========
+Step Type     Time Target Strike Water Amt
+==== ======== ==== ====== ====== ===========
+1    Infusion 90   151F   161F   7 qts
+==== ======== ==== ====== ====== ===========
+
+Boil
+----
+
+==== ================= ======== ==== ====
+Time Name              Amount   AA%  IBUs
+==== ================= ======== ==== ====
+60   Perle             0.2 oz   \    \ 
+15   Irish Moss        0.5 tsp  \-   \-
+10   Corriander Seed   0.5 oz   \-   \-
+10   Salt              0.25 oz  \-   \-
+==== ================= ======== ==== ====
+
+Fermentation
+------------
+
+.. table:: Steps
+    :class: caption-top
+
+    ======= ======= ====
+    Step    Time    Temp
+    ======= ======= ====
+    Primary 10 Days 68°F
+    ======= ======= ====
+
+.. table:: Ingredients
+    :class: caption-top
+
+    ========== ======= ======
+    Ingredient Step    Amount
+    ========== ======= ======
+    WY3068     Primary 1 pkg
+    ========== ======= ======
+
+Brew Day
+--------
+
+========================= ===========
+**Date**                  2017-06-18
+**Volume into Fermenter** 2.5 gallons
+**Actual OG**             1.044
+**Actual FG**             1.013
+**Actual ABV**            4.1%
+**Packaged on**           2017-07-08
+**Carbonation**           3.7 oz sugar
+========================= ===========
+
+Notes
+~~~~~
+
+Kettle soured before boil with a handful of unmilled grain, heating pad kept wort @ 100F for ~5 days.

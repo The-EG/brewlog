@@ -1,0 +1,65 @@
+---
+layout: post
+title: Fat Tire Clone
+date: 2016-05-30
+slug: 2016-05-30-fat-tire-clone
+tags: amber ale, clone
+
+brew_type: beer
+
+recipe:
+  type: "All Grain"
+  style: "19A - American Amber Ale"
+  size: "2.75 gallon"
+  est_og: 1.053
+  est_fg: 1.013
+  est_abv: 5.4
+  color: 10.4
+  ibus: 21.5
+  boil_time: "60 min"
+  yeast: "S-04"
+  ferm_time: "10 days"
+  ferm_temp: 68F
+  fermentables:
+    - name: "Pale (US)"
+      amount: "4.75 lbs"
+    - name: "Munich II"
+      amount: "9 oz"
+    - name: "Crystal 80L"
+      amount: "5 oz"
+    - name: "Victory"
+      amount: "4 oz"
+  mash:
+    - name: "Mash In"
+      strike_temp: "167F"
+      amount: "7.25 qts"
+      target_temp: "154F"
+      time: "60 min"
+  sparge: "Fly sparge"
+  hops:
+    - name: "Target"
+      type: "Boil"
+      amount: "0.5 oz"
+      time: "60 min"
+    - name: "Irish Moss"
+      type: "Boil"
+      amount: "0.5 tsp"
+      time: "15 min"
+    - name: "Willamette"
+      type: "Boil"
+      amount: "0.25 oz"
+      time: "10 min"
+    - name: "Goldings"
+      type: "Aroma"
+      amount: "0.25 oz"
+      time: "0 min"
+  package_type: "Bottle"
+  package_date: 2016-07-09
+  carb_priming: "2.5 oz sugar"
+  og: 1.062
+  fg: 1.017
+  abv: 5.9%
+  notes: >-
+---
+{% include other_brews.markdown %}
+

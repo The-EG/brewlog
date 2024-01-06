@@ -1,0 +1,55 @@
+Black IPA #1
+############
+
+:date: 2020-05-16
+:tags: ipa, black ipa
+:image: /assets/black-ipa-2020-vorlaf 1.jpg
+:type: beer
+:subtitle: Black IPA
+
+.. brew::
+    :name: Black IPA #1
+    :style: Black IPA
+    :og: 1.066
+    :fg: 1.016
+    :abv: 6.6%
+    :volume: 5.25 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 67
+    :color: 29.2
+    :act_og: 1.062
+    :act_fg: 1.013
+    :act_abv: 6.5%
+    :packaged: 2020-05-16
+    :carbonation: 
+
+    .. fermentable:: 81.8%, Pale (US), 4, 11 lbs 8 oz
+    .. fermentable:: 14.2%, Crystal 40L, 40, 2 lbs
+    .. fermentable:: 4%, Black Barley, 500, 9 oz
+
+    .. mashstep:: 1, Infusion, 60, 152F, 163F, 5 gallons
+    .. mashstep:: 2, Sparge, 15, 168F, -, 3.75 gallons
+
+    .. boil_item:: 60, Warrior, 1.11 oz, 15%, 47.8
+    .. boil_item:: 30, Cascade, 1 oz, 5.5%, 12.3
+    .. boil_item:: 15, Citra, 0.43 oz, 12%, 7.2
+    .. boil_item:: 15, Irish Moss, 1 tsp, -, -
+    .. boil_item:: 0, Citra, 0.44 oz, -, -
+    .. boil_item:: 0, Simcoe, 0.44 oz, -, -
+    .. boil_item:: 0, Cascade, 0.44 oz, -, -
+
+    .. ferm_step:: Primary, 10 Days, 68F
+    .. ferm_step:: Dry Hop, 7 Days, 68F
+
+    .. ferm_ingredient:: US-05, Primary, 1 pkg
+    .. ferm_ingredient:: Citra, Dry Hop, 4 oz
+    .. ferm_ingredient:: Simcoe, Dry Hop, 0.5 oz
+    .. ferm_ingredient:: Cascade, Dry Hop, 0.5 oz
+
+----
+
+Notes
+~~~~~
+
+Collected 5.5 gallons of wort. Pitched US-05 packet, not rehydrated @72F. Fermentation temp maintained between 67-68F. Dry hopped with 4oz citra, 0.5oz simcoe, 0.5oz cascade (left overs)

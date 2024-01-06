@@ -1,0 +1,53 @@
+Quad #1
+#######
+
+:date: 2018-09-16
+:tags: belgian, quad
+:image: /assets/20180916-quad.png
+:type: beer
+:subtitle: Belgian Dark Strong Ale
+
+.. image:: /assets/20180916-quad.png
+
+----
+
+.. brew::
+    :name: Quad #1
+    :style: Belgian Dark Strong
+    :og: 1.094
+    :fg: 1.015
+    :abv: 10.5%
+    :volume: 4.25 gallons
+    :efficiency: 72%
+    :boil_length: 60 minutes
+    :ibus: 27.8
+    :color: 15.2
+    :act_og: 1.102
+    :act_fg: 1.034
+    :act_abv: 8.9%
+    :packaged: 
+    :carbonation: 
+
+    .. fermentable:: 84.6%, Pale (BE), , 12 lbs 6 oz
+    .. fermentable:: 5.1%, Munich, , 12 oz
+    .. fermentable:: 5.1%, Light Brown Sugar, ,12 oz
+    .. fermentable:: 2.6%, Crystal 80L, , 6 oz
+    .. fermentable:: 2.6%, Crystal 120L, , 6 oz
+
+    .. mashstep:: 1, Infusion, 60, 150F, 164F, 19 qts
+    .. mashstep:: 2, Mash Out, 10, 168F, 211F, 9.5 qts
+
+    .. boil_item:: 60, Light Brown Sugar, 12 oz, -, -
+    .. boil_item:: 60, Warrior, 0.5 oz, 15%, 27.8
+    .. boil_item:: 10, Irish Moss, 0.75 tsp, -, -
+
+    .. ferm_step:: Primary, 10 Days, 67F
+
+    .. ferm_ingredient:: WY3787, Primary, 1 pkg
+
+----
+
+Notes
+~~~~~
+
+Pitched the smack pack. I forgot to add the sugar during the boil! Insane efficency! But, that caused the fermentation to stall...too sweet to drink.

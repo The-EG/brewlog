@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-xl">
+{% block content_title %}
+<h2>All Brews</h2>
+{% endblock %}
+<hr>
+
+<div class="row row-gap-3">
+    {% for article in articles_page.object_list %}
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="rounded d-flex flex-row bg-body-tertiary shadow">
+            {%if article.image %}<img class="rounded object-fit-cover" src="{{ SITEURL }}{{ article.image }}" style="height: 175px; width: auto; max-width: 130px;">
+            {%- else %}<div class="rounded bg-secondary flex-shrink-0 text-center d-flex flex-column justify-content-center" style="width:130px; height:175px;"><span class="fs-1">🍺</span></div>
+            {% endif %}
+            <div class="p-3 flex-grow-1 text-end">
+                <h4><a class="link-light" href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a></h4>
+                <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                {%if article.subtitle %}<div>{{ article.subtitle }}</div>{% endif %}
+                <div class="d-fex flex-row">
+                    {% for tag in article.tags %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}"><span class="badge rounded-pill text-bg-secondary">{{ tag }}</span></a>
+                    {% endfor %}
+                </div>
+            </div>          
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+{% endblock content %}
