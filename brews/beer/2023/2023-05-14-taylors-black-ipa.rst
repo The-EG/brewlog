@@ -9,19 +9,19 @@ Taylor's Black IPA
 
 .. container:: text-center
     
-    .. figure:: /assets/blackipa-20230514/new_mash_tun.png
+    .. figure:: {static}/assets/blackipa-20230514/new_mash_tun.png
         :height: 300px
         
         Going to be hot! New shiny mash tun!
 
 
-    .. figure:: /assets/blackipa-20230514/boiling.png
+    .. figure:: {static}/assets/blackipa-20230514/boiling.png
         :height: 300px
         
         Boiling!
 
 
-    .. figure:: /assets/blackipa-20230514/hops-stash.png
+    .. figure:: {static}/assets/blackipa-20230514/hops-stash.png
         :height: 300px
 
         Digging into the hops stash for this IPA...
@@ -67,7 +67,7 @@ Taylor's Black IPA
 Notes
 -----
 
-.. figure:: /assets/blackipa-20230514/final-gravity.png
+.. figure:: {static}/assets/blackipa-20230514/final-gravity.png
    
     Original Gravity Reading
 

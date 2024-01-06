@@ -8,7 +8,7 @@ Who's Your Taddy Porter
 :subtitle: Porter
 :image: /assets/20190511-whos-your-taddy-porter.png
 
-.. figure:: /assets/20190511-whos-your-taddy-porter.png
+.. figure:: {static}/assets/20190511-whos-your-taddy-porter.png
 
 From 'Brewing Classic Styles'
 

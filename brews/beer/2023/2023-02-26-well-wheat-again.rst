@@ -11,17 +11,17 @@ A Weihenstephaner clone. This was very 'meh.' Not bad, but not terribly great ei
 
 .. container:: text-center
 
-    .. figure:: /assets/wellwheatagain/brewday.png
+    .. figure:: {static}/assets/wellwheatagain/brewday.png
         :height: 400
 
         a not rainy brew day!
 
-    .. figure:: /assets/wellwheatagain/white-wheat.png
+    .. figure:: {static}/assets/wellwheatagain/white-wheat.png
         :height: 400
 
         White Wheat
 
-    .. figure:: /assets/wellwheatagain/pilsen.png
+    .. figure:: {static}/assets/wellwheatagain/pilsen.png
         :height: 400
 
         German Pilsen
@@ -62,7 +62,7 @@ A Weihenstephaner clone. This was very 'meh.' Not bad, but not terribly great ei
 Notes
 -----
 
-.. figure:: /assets/wellwheatagain/original-gravity.png
+.. figure:: {static}/assets/wellwheatagain/original-gravity.png
 
     OG = 1.049
 

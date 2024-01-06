@@ -9,7 +9,7 @@ Moose Drool
 
 .. container:: text-center
 
-    .. figure:: /assets/moosedrool-20231230/mashtun.png
+    .. figure:: {static}/assets/moosedrool-20231230/mashtun.png
         :height: 400
 
         A brew to finish out this crappy year!

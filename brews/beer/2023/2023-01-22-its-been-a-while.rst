@@ -16,52 +16,52 @@ Since the 4 gallon kettle was already full I had to boil it for 75 minutes first
 
 .. container:: text-center
 
-    .. figure:: /assets/itsbeenawhile/equipment.png
+    .. figure:: {static}/assets/itsbeenawhile/equipment.png
         :height: 400
 
         a rainy brew day
 
-    .. figure:: /assets/itsbeenawhile/grain.png
+    .. figure:: {static}/assets/itsbeenawhile/grain.png
         :height: 400
 
         milled grain
 
-    .. figure:: /assets/itsbeenawhile/mash.png
+    .. figure:: {static}/assets/itsbeenawhile/mash.png
         :height: 400
 
         mash
 
-    .. figure:: /assets/itsbeenawhile/batch_sparge.png
+    .. figure:: {static}/assets/itsbeenawhile/batch_sparge.png
         :height: 400
 
         draining into the brew kettle
 
-    .. figure:: /assets/itsbeenawhile/woops.png
+    .. figure:: {static}/assets/itsbeenawhile/woops.png
         :height: 400
 
         oops! too much wort...
 
-    .. figure:: /assets/itsbeenawhile/boil1.png
+    .. figure:: {static}/assets/itsbeenawhile/boil1.png
         :height: 400
 
         boiling off the extra...
 
-    .. figure:: /assets/itsbeenawhile/boil2.png
+    .. figure:: {static}/assets/itsbeenawhile/boil2.png
         :height: 400
 
         finally starting the actual boil
     
-    .. figure:: /assets/itsbeenawhile/bottles1.png
+    .. figure:: {static}/assets/itsbeenawhile/bottles1.png
         :height: 400
 
         cleaned and sanitized bottles
 
-    .. figure:: /assets/itsbeenawhile/bottles2.png
+    .. figure:: {static}/assets/itsbeenawhile/bottles2.png
         :height: 400
 
         bottled!
 
-    .. figure:: /assets/itsbeenawhile/finished.png
+    .. figure:: {static}/assets/itsbeenawhile/finished.png
         :height: 400
 
         finished!
