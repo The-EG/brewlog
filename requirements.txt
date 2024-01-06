@@ -27,7 +27,7 @@ mdurl==0.1.2
 ordered-set==4.1.0
 packaging==23.2
 pelican==4.9.1
--e git+ssh://git@github.com/The-EG/brewlog.git@dddf0e8c91c5417b33f6f0f94840db625cad3e0d#egg=pelican_rst_html5_reader&subdirectory=rst-html5-reader
+-e git+ssh://git@github.com/The-EG/brewlog.git@ba5398ccb3b0438d61bc60261cca511ec94f65c5#egg=pelican_rst_html5_reader&subdirectory=rst-html5-reader
 pelican-yaml-metadata==2.1.2
 platformdirs==4.1.0
 pygls==1.2.1
