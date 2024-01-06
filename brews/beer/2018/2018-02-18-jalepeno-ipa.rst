@@ -7,7 +7,7 @@ Jalepeno IPA
 :type: beer
 :subtitle: American IPA
 
-.. image:: /assets/20180218-jalepeno-ipa.png
+.. image:: {static}/assets/20180218-jalepeno-ipa.png
 
 *2023-01-04:* I don't remember this having much jalepeno flavor, but it was a decent IPA.
 

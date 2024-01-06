@@ -7,7 +7,7 @@ Moose Drool
 :type: beer
 :subtitle: American Brown Ale
 
-.. image:: /assets/20181111-moose-drool.png
+.. image:: {static}/assets/20181111-moose-drool.png
 
 ----
 

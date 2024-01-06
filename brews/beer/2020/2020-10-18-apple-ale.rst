@@ -9,7 +9,7 @@ Apple Ale
 
 .. container:: text-center
 
-    .. image:: /assets/apples.png
+    .. image:: {static}/assets/apples.png
         :height: 400
 
 I was trying to figure out what to brew next and complaining to Suzanne that I wasn't inspired by anything. Nothing sounded good. It was like being hungry but not wanting food.

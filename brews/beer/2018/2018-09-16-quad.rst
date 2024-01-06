@@ -7,7 +7,7 @@ Quad #1
 :type: beer
 :subtitle: Belgian Dark Strong Ale
 
-.. image:: /assets/20180916-quad.png
+.. image:: {static}/assets/20180916-quad.png
 
 ----
 

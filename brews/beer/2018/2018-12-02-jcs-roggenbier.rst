@@ -7,7 +7,7 @@ J.C.'s Roggenbier
 :type: beer
 :subtitle: Roggenbier
 
-.. image:: /assets/20181202-roggenbier.png
+.. image:: {static}/assets/20181202-roggenbier.png
 
 ----
 

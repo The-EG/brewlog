@@ -7,7 +7,7 @@ Big Mama's Barley Wine
 :type: beer
 :subtitle: American Barleywine
 
-.. image:: /assets/20171222-barley-wine.png
+.. image:: {static}/assets/20171222-barley-wine.png
 
 ----
 

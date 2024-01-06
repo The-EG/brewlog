@@ -7,7 +7,7 @@ Good Riddance
 :subtitle: Strong Belgian Ale
 :image: /assets/20201230-good-riddance.png
 
-.. image:: /assets/20201230-good-riddance.png
+.. image:: {static}/assets/20201230-good-riddance.png
 
 My final brew of 2020! I decided to try a Belgian Golden Strong Ale, but this is made with the ingredients that I already had on hand.
 

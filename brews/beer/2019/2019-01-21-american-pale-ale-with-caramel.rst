@@ -7,7 +7,7 @@ American Pale Ale with Caramel
 :type: beer
 :subtitle: American Pale Ale
 
-.. image:: /assets/20190121-pale-ale.png
+.. image:: {static}/assets/20190121-pale-ale.png
 
 ----
 

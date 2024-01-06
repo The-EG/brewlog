@@ -13,7 +13,7 @@ This is a couple of firsts:
  
  I bought these in 'the before time,' before COVID-19 with no real plan on what to use them on...but with the thought that having it would force me to try it.
 
-.. image:: /assets/oak_spirals.png
+.. image:: {static}/assets/oak_spirals.png
     :height: 400
 
 I figured an imperial stout was as good a thing as any. The package says both sticks for 6 gallons...and I have a bit over 5...so both sticks went in!

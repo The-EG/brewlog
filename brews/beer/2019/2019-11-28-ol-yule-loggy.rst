@@ -7,7 +7,7 @@ Ol' Yule Loggy
 :subtitle: Winter Seasonal Beer
 :image: /assets/20191128-olyuleloggy.png
 
-.. image:: /assets/20191128-olyuleloggy.png
+.. image:: {static}/assets/20191128-olyuleloggy.png
 
 From the book Brewing Classic Styles. Turned out very nice, this will probably be a yearly brew for the holidays.
 

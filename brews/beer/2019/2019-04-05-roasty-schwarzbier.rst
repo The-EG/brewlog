@@ -8,7 +8,7 @@ Roasty Schwarzbier
 :image: /assets/20190405-roasty-schwarzbier.png
 
 
-.. image:: /assets/20190405-roasty-schwarzbier.png
+.. image:: {static}/assets/20190405-roasty-schwarzbier.png
 
 ----
 

@@ -7,7 +7,7 @@ Moose Drool
 :subtitle: American Brown Ale
 :image: /assets/20200607-moosedrool.png
 
-.. image:: /assets/20200607-moosedrool.png
+.. image:: {static}/assets/20200607-moosedrool.png
 
 ----
 

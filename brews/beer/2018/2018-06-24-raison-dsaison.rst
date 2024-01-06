@@ -7,7 +7,7 @@ Raison D'Saison
 :subtitle: Saison
 :image: /assets/20180624-raison-dsaison.png
 
-.. image:: /assets/20180624-raison-dsaison.png
+.. image:: {static}/assets/20180624-raison-dsaison.png
 
 From the book Brewing Classic Styles
 
