@@ -28,6 +28,10 @@ Moose Drool
     :ibus: 21
     :color: 69.4
     :act_og: 1.058
+    :act_fg:
+    :act_abv:
+    :packaged:
+    :carbonation:
 
     .. fermentable:: 86.0%, 2-Row (US), 2, 5 lbs 2 oz
     .. fermentable:: 9.0%, Crystal 40L,40, 9 oz
