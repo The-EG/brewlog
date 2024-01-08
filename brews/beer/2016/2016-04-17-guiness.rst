@@ -1,0 +1,48 @@
+Guiness Clone
+#############
+
+:date: 2016-04-17
+:tags: clone, stout
+:type: beer
+:subtitle: Irish Stout
+
+A clone recipe for Guniess Draught
+
+----
+
+.. brew::
+    :name: Guiness Clone
+    :style: Irish Stout
+    :og: 1.045
+    :fg: 1.011
+    :abv: 4.5%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 34
+    :color: 24
+    :act_og: 1.053
+    :act_fg: 1.017
+    :act_abv: 4.9
+    :packaged: 2016-04-30
+    :carbonation: 1.3 oz of sugar
+
+    .. fermentable:: , Pale (US), , 3.33 lbs 2 oz
+    .. fermentable:: , Flaked Barley, , 1.3 lbs
+    .. fermentable:: , Roasted Barley, , 8 oz
+    .. fermentable:: , Acid Malt, , 1.25 oz
+
+    .. mashstep:: 1, Infusion, 70, 152F, 166F, 1.5 gallons
+
+    .. boil_item:: 60, Willamette, 0.9 oz, ,
+    .. boil_item:: 15, Irish Moss, 0.5 tsp, ,
+
+    .. ferm_step:: Primary, 10 Days, 68F
+
+    .. ferm_ingredient:: S-04, Primary, 1 Pkg
+
+----
+
+Notes
+-----
+

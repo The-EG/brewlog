@@ -1,0 +1,60 @@
+Black IPA #1
+############
+
+:date: 2016-05-30
+:tags: ipa, black ipa
+:image: /assets/black-ipa-trophy.jpg
+:type: beer
+:subtitle: American Brown Ale
+
+.. container:: text-center
+
+    .. figure:: {static}/assets/black-ipa-trophy.jpg
+        :height: 400
+
+        
+My first recipe of my own creation, and also my first beer that was shared with more than just close friends...and it won 3rd place in a people's choice contest!
+
+----
+
+.. brew::
+    :name: Black IPA #1
+    :style: Black IPA
+    :og: 1.066
+    :fg: 1.016
+    :abv: 6.8%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 26
+    :color: 70.6
+    :act_og: 1.072
+    :act_fg: 1.018
+    :act_abv: 7.1
+    :packaged: 2016-06-18
+    :carbonation: 2.3 oz sugar
+
+    .. fermentable:: , Pale (US), , 6 lbs
+    .. fermentable:: , Crystal 45L, , 1 lbs
+    .. fermentable:: , Roasted Barley, , 4 oz
+
+    .. mashstep:: 1, Infusion, 60, 152F, 164F, 2.25 gallons
+
+    .. boil_item:: 60, Warrior, 0.6 oz, ,
+    .. boil_item:: 30, Cascade, 0.5 oz, ,
+    .. boil_item:: 15, Citra, 0.25 oz, ,
+    .. boil_item:: 0, Citra, 0.25 oz, ,
+    .. boil_item:: 0, Simcoe, 0.25 oz, ,
+    .. boil_item:: 0, Cascade, 0.25 oz, ,
+
+    .. ferm_step:: Primary, 10 Days, 68F
+    .. ferm_step:: Dry Hop, 7 Days, 68F
+
+    .. ferm_ingredient:: US-05, Primary, 1 Pkg
+    .. ferm_ingredient:: Citra, Dry Hop, 1.5 oz
+
+----
+
+Notes
+-----
+

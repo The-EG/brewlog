@@ -1,0 +1,46 @@
+Fat Tire Clone
+##############
+
+:date: 2016-06-19
+:tags: clone, amber ale
+:type: beer
+:subtitle: American Amber Ale
+
+.. brew::
+    :name: Fat Tire Clone
+    :style: American Amber Ale
+    :og: 1.053
+    :fg: 1.013
+    :abv: 5.4%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 21.5
+    :color: 10.4
+    :act_og: 1.062
+    :act_fg: 1.017
+    :act_abv: 5.9%
+    :packaged: 2016-07-09
+    :carbonation: 2.5 oz sugar
+
+    .. fermentable:: , Pale (US), , 4.75 lbs
+    .. fermentable:: , Munich II, , 9 oz
+    .. fermentable:: , Crystal 80L, , 5 oz
+    .. fermentable:: , Victory, , 4 oz
+
+    .. mashstep:: 1, Infusion, 60, 154F, 167F, 7.25 qts
+
+    .. boil_item:: 60, Target, 0.5 oz, ,
+    .. boil_item:: 15, Irish Moss, 0.5 tsp, ,
+    .. boil_item:: 10, Willamette, 0.25 oz, ,
+    .. boil_item:: 0, Goldings, 0.25 oz, ,
+
+    .. ferm_step:: Primary, 10 Days, 68F
+
+    .. ferm_ingredient:: S-04, Primary, 1 Pkg
+
+----
+
+Notes
+-----
+
