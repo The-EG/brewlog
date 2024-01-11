@@ -56,5 +56,5 @@ Notes
     Original Gravity
 
 - Mash started at 152, attempted to heat up, overshot
-
 - 2024-01-06: Gravity reading: 1.022. Stalled fermentation. Stirred up trub and raised temp to 70F
+- 2024-01-10: Gravity still reading 1.022. Fermentation must be done, probably due to mash temp being too high.
