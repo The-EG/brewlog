@@ -1,0 +1,51 @@
+60 Minute IPA
+#############
+
+:date: 2016-04-02
+:tags: clone, ipa
+:type: beer
+:subtitle: American IPA
+
+A clone recipe for the popular Dogfish Head 60 Minute IPA
+
+----
+
+.. brew::
+    :name: 60 Minute IPA
+    :style: American IPA
+    :og: 1.068
+    :fg: 1.017
+    :abv: 5.6%
+    :volume: 2.75 gallons
+    :efficiency: 
+    :boil_length: 60 minutes
+    :ibus: 66
+    :color: 5.6
+    :act_og: 1.062
+    :act_fg: 1.007
+    :act_abv: 7.2%
+    :packaged: 2016-04-16
+    :carbonation: 2.3 oz sugar
+
+    .. fermentable:: , Pale (US), , 7.125 lbs
+    .. fermentable:: , Amber, , 3.3 oz
+
+    .. mashstep:: 1, Infusion, 60, 154F, 164F, 2.25 gallons
+
+    .. boil_item:: 60, Warrior, 0.4z oz, ,
+    .. boil_item:: 35, Amarillo, 0.275 oz, ,
+    .. boil_item:: 30, Simcoe, 0.275 oz, ,
+    .. boil_item:: 15, Irish Moss, 0.5 tsp, ,
+
+    .. ferm_step:: Primary, 10 Days, 68F
+    .. ferm_step:: Dry Hop, 7 Days, 68F
+
+    .. ferm_ingredient:: US-05, Primary, 1 Pkg
+    .. ferm_ingredient:: Amarillo, Dry Hop, 0.55 oz
+    .. ferm_ingredient:: Simcoe, Dry Hop, 0.275 oz
+
+----
+
+Notes
+-----
+
