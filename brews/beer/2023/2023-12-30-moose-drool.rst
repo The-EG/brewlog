@@ -28,6 +28,10 @@ Moose Drool
     :ibus: 21
     :color: 69.4
     :act_og: 1.058
+    :act_fg: 1.022
+    :act_abv: 4.7%
+    :packaged: 2024-01-18
+    :carbonation: 12 PSI @ 34F
 
     .. fermentable:: 86.0%, 2-Row (US), 2, 5 lbs 2 oz
     .. fermentable:: 9.0%, Crystal 40L,40, 9 oz
@@ -58,3 +62,4 @@ Notes
 - Mash started at 152, attempted to heat up, overshot
 - 2024-01-06: Gravity reading: 1.022. Stalled fermentation. Stirred up trub and raised temp to 70F
 - 2024-01-10: Gravity still reading 1.022. Fermentation must be done, probably due to mash temp being too high.
+- 2024-01-18: Kegged ~2.3 gallons
