@@ -1,0 +1,39 @@
+Reisling
+########
+
+:date: 2024-01-30
+:tags: reisling
+:image: /assets/20240130-reisling/box.png
+:type: wine
+:subtitle: wine
+
+.. figure:: {static}/assets/20240130-reisling/box.png
+        :height: 400
+
+        A kit that I bought a while ago.
+
+.. figure:: {static}/assets/20240130-reisling/og.png
+        :height: 400
+
+        Original Gravity = 1.083
+
+.. figure:: {static}/assets/20240130-reisling/pre-pitch.png
+        :height: 400
+
+        6 gallons
+
+.. figure:: {static}/assets/20240130-reisling/sealed.png
+        :height: 400
+
+        Ready to ferment.
+
+---
+
+A reisling kit that I bought sometime during the pandemic and never got around to brewing. Replaced the yeast with a fresh pack, but everything else seemed ok.
+
+Notes
+-----
+
+- Original Gravity: 1.083
+- Fermentation chamber set to 70F
+- Vigorous airlock activity 12 hours after pitching!
