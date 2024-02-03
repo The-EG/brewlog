@@ -63,3 +63,4 @@ Notes
 - 2024-01-06: Gravity reading: 1.022. Stalled fermentation. Stirred up trub and raised temp to 70F
 - 2024-01-10: Gravity still reading 1.022. Fermentation must be done, probably due to mash temp being too high.
 - 2024-01-18: Kegged ~2.3 gallons
+- 2024-02-03: Mostly carbed up now, very soft mouth feel and decent flavor. Obviously a bit sweet due to high FG, but still very drinkable. Not bad considering!
