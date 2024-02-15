@@ -38,3 +38,4 @@ Notes
 - Fermentation chamber set to 70F
 - Vigorous airlock activity 12 hours after pitching!
 - 2024-02-03: SG - 1.062, still fermenting, regular airlock activity
+- 2024-02-13: Racked to seconary, FG = 0.996
