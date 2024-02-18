@@ -27,6 +27,16 @@ Reisling
 
         Ready to ferment.
 
+.. figure:: {static}/assets/20240130-reisling/clearing1.png
+        :height: 400
+
+        Clearing, day 1
+
+.. figure:: {static}/assets/20240130-reisling/clearing2.png
+        :height: 400
+
+        Clearing, day 5
+
 ----
 
 A reisling kit that I bought sometime during the pandemic and never got around to brewing. Replaced the yeast with a fresh pack, but everything else seemed ok.
